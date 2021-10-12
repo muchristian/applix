@@ -1,0 +1,62 @@
+.services {
+  h2 {
+    color: $accent;
+    font-weight: 700;
+    text-align: center;
+  }
+  .card {
+    // width: 200px;
+    border-radius: 16px;
+    border-color: #eaecec;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.125);
+    img {
+      width: 56px;
+      height: 56px;
+    }
+    h6 {
+      color: $secondary;
+    }
+    .card-body {
+      .row {
+        p {
+          color: $secondary;
+        }
+        .btn {
+          color: #fff;
+          background-color: $secondary;
+          border-color: $secondary;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+
+  .row {
+    .col-sm-12 {
+      &:nth-child(2) {
+        .col-md-12 {
+          &:nth-child(1) {
+            .card {
+              background-color: $secondary;
+              img {
+                width: 56px;
+                height: 56px;
+                filter: invert(100%);
+              }
+              h6,
+              p {
+                color: $primary;
+              }
+              .description {
+                color: #dbdbdb;
+              }
+              .btn {
+                background-color: $accent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

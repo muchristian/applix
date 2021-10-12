@@ -1,0 +1,551 @@
+/*Table*/
+.table {
+  thead {
+    th {
+      border-top: none;
+      border-bottom: none;
+      vertical-align: middle;
+    }
+  }
+  th {
+    font-weight: 500;
+    color: #324148;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-top: 1px solid #eaecec;
+    vertical-align: middle;
+    padding: 0.75rem 1.25rem;
+  }
+  td {
+    border-top: 1px solid #eaecec;
+    vertical-align: middle;
+    padding: 0.75rem 1.25rem;
+  }
+  .thead-primary {
+    th {
+      color: #fff;
+      background-color: #00acf0;
+    }
+  }
+  .thead-blue {
+    th {
+      color: #fff;
+      background-color: #0092ee;
+    }
+  }
+  .thead-success {
+    th {
+      color: #fff;
+      background-color: #22af47;
+    }
+  }
+  .thead-green {
+    th {
+      color: #fff;
+      background-color: #22af47;
+    }
+  }
+  .thead-info {
+    th {
+      color: #fff;
+      background-color: #1ebccd;
+    }
+  }
+  .thead-cyan {
+    th {
+      color: #fff;
+      background-color: #1ebccd;
+    }
+  }
+  .thead-warning {
+    th {
+      color: #fff;
+      background-color: #ffbf36;
+    }
+  }
+  .thead-yellow {
+    th {
+      color: #fff;
+      background-color: #ffbf36;
+    }
+  }
+  .thead-danger {
+    th {
+      color: #fff;
+      background-color: #f83f37;
+    }
+  }
+  .thead-red {
+    th {
+      color: #fff;
+      background-color: #f83f37;
+    }
+  }
+  .thead-secondary {
+    th {
+      color: #fff;
+      background-color: #9e9e9e;
+    }
+  }
+  .thead-grey {
+    th {
+      color: #fff;
+      background-color: #9e9e9e;
+    }
+  }
+  .thead-sky {
+    th {
+      background-color: #00acf0;
+    }
+  }
+  .thead-pink {
+    th {
+      background-color: #ed1b60;
+    }
+  }
+  .thead-purple {
+    th {
+      background-color: #ab26aa;
+    }
+  }
+  .thead-violet {
+    th {
+      background-color: #6640b2;
+    }
+  }
+  .thead-indigo {
+    th {
+      background-color: #3a55b1;
+    }
+  }
+  .thead-teal {
+    th {
+      background-color: #009b84;
+    }
+  }
+  .thead-neon {
+    th {
+      background-color: #88c241;
+    }
+  }
+  .thead-lime {
+    th {
+      background-color: #d0d962;
+    }
+  }
+  .thead-sun {
+    th {
+      background-color: #fde335;
+    }
+  }
+  .thead-orange {
+    th {
+      background-color: #ff9528;
+    }
+  }
+  .thead-pumpkin {
+    th {
+      background-color: #ff6028;
+    }
+  }
+  .thead-brown {
+    th {
+      background-color: #7a5449;
+    }
+  }
+  .thead-gold {
+    th {
+      background-color: #c1993f;
+    }
+  }
+  .thead-smoke {
+    th {
+      background-color: #5e7d8a;
+    }
+  }
+  .thead-active {
+    th {
+      background-color: #5e7d8a;
+      color: #fff;
+    }
+  }
+  .thead-light {
+    th {
+      background-color: #eaecec;
+    }
+  }
+  .thead-dark {
+    th {
+      background-color: #324148;
+      color: #fff;
+    }
+  }
+}
+.table.table-dark {
+  thead {
+    th {
+      background: #324148;
+    }
+  }
+}
+.table.table-hover {
+  tbody {
+    tr {
+      &:hover {
+        background-color: #f5f5f6;
+      }
+    }
+  }
+}
+.table.table-striped {
+  tbody {
+    tr {
+      &:nth-of-type(2n + 1) {
+        background-color: #f5f5f6;
+      }
+    }
+  }
+}
+.table.table-bordered {
+  border: none;
+  td {
+    border-color: #eaecec;
+    border-top: none;
+  }
+  th {
+    border-top: 1px solid #eaecec;
+    border-bottom: 1px solid #eaecec;
+  }
+}
+.table.table-flush {
+  td {
+    border-top: none;
+    border-bottom: none;
+  }
+  th {
+    border-top: none;
+    border-bottom: none;
+  }
+}
+.table-lg {
+  td {
+    padding: 0.75rem 1.5rem;
+  }
+  th {
+    padding: 0.75rem 1.5rem;
+  }
+}
+.table-sm {
+  td {
+    padding: 0.45rem 1.25rem;
+    font-size: 15px;
+  }
+  th {
+    padding: 0.45rem 1.25rem;
+  }
+}
+.table-primary {
+  background-color: #edf9fe;
+  > td {
+    background-color: #edf9fe;
+  }
+  > th {
+    background-color: #edf9fe;
+  }
+}
+.table-sky {
+  background-color: #edf9fe;
+  > td {
+    background-color: #edf9fe;
+  }
+  > th {
+    background-color: #edf9fe;
+  }
+}
+.table-success {
+  background-color: #eff9f2;
+  > td {
+    background-color: #eff9f2;
+  }
+  > th {
+    background-color: #eff9f2;
+  }
+}
+.table-green {
+  background-color: #eff9f2;
+  > td {
+    background-color: #eff9f2;
+  }
+  > th {
+    background-color: #eff9f2;
+  }
+}
+.table-info {
+  background-color: #effafb;
+  > td {
+    background-color: #effafb;
+  }
+  > th {
+    background-color: #effafb;
+  }
+}
+.table-cyan {
+  background-color: #effafb;
+  > td {
+    background-color: #effafb;
+  }
+  > th {
+    background-color: #effafb;
+  }
+}
+.table-warning {
+  background-color: #fff8eb;
+  > td {
+    background-color: #fff8eb;
+  }
+  > th {
+    background-color: #fff8eb;
+  }
+}
+.table-yellow {
+  background-color: #fff8eb;
+  > td {
+    background-color: #fff8eb;
+  }
+  > th {
+    background-color: #fff8eb;
+  }
+}
+.table-danger {
+  background-color: #fff1f1;
+  > td {
+    background-color: #fff1f1;
+  }
+  > th {
+    background-color: #fff1f1;
+  }
+}
+.table-red {
+  background-color: #fff1f1;
+  > td {
+    background-color: #fff1f1;
+  }
+  > th {
+    background-color: #fff1f1;
+  }
+}
+.table-active {
+  background-color: #f4f6f7;
+  > td {
+    background-color: #f4f6f7;
+  }
+  > th {
+    background-color: #f4f6f7;
+  }
+}
+.table-grey {
+  background-color: #f5f5f5;
+  > td {
+    background-color: #f5f5f5;
+  }
+  > th {
+    background-color: #f5f5f5;
+  }
+}
+.table-secondary {
+  background-color: #f5f5f5;
+  > td {
+    background-color: #f5f5f5;
+  }
+  > th {
+    background-color: #f5f5f5;
+  }
+}
+.table-pink {
+  background-color: #feeff4;
+  > td {
+    background-color: #feeff4;
+  }
+  > th {
+    background-color: #feeff4;
+  }
+}
+.table-purple {
+  background-color: #f9f0f9;
+  > td {
+    background-color: #f9f0f9;
+  }
+  > th {
+    background-color: #f9f0f9;
+  }
+}
+.table-violet {
+  background-color: #f4f2fa;
+  > td {
+    background-color: #f4f2fa;
+  }
+  > th {
+    background-color: #f4f2fa;
+  }
+}
+.table-indigo {
+  background-color: #f1f3f9;
+  > td {
+    background-color: #f1f3f9;
+  }
+  > th {
+    background-color: #f1f3f9;
+  }
+}
+.table-blue {
+  background-color: #edf7fe;
+  > td {
+    background-color: #edf7fe;
+  }
+  > th {
+    background-color: #edf7fe;
+  }
+}
+.table-teal {
+  background-color: #edf8f6;
+  > td {
+    background-color: #edf8f6;
+  }
+  > th {
+    background-color: #edf8f6;
+  }
+}
+.table-neon {
+  background-color: #f3f9ec;
+  > td {
+    background-color: #f3f9ec;
+  }
+  > th {
+    background-color: #f3f9ec;
+  }
+}
+.table-lime {
+  background-color: #f9faeb;
+  > td {
+    background-color: #f9faeb;
+  }
+  > th {
+    background-color: #f9faeb;
+  }
+}
+.table-orange {
+  background-color: #fff4e9;
+  > td {
+    background-color: #fff4e9;
+  }
+  > th {
+    background-color: #fff4e9;
+  }
+}
+.table-pumpkin {
+  background-color: #fff4f0;
+  > td {
+    background-color: #fff4f0;
+  }
+  > th {
+    background-color: #fff4f0;
+  }
+}
+.table-brown {
+  background-color: #f6f3f2;
+  > td {
+    background-color: #f6f3f2;
+  }
+  > th {
+    background-color: #f6f3f2;
+  }
+}
+.table-gold {
+  background-color: #fbf8f1;
+  > td {
+    background-color: #fbf8f1;
+  }
+  > th {
+    background-color: #fbf8f1;
+  }
+}
+.table-smoke {
+  background-color: #f4f6f7;
+  > td {
+    background-color: #f4f6f7;
+  }
+  > th {
+    background-color: #f4f6f7;
+  }
+}
+.table-light {
+  background-color: #f5f5f6;
+  > td {
+    background-color: #f5f5f6;
+  }
+  > th {
+    background-color: #f5f5f6;
+  }
+}
+.table-dark {
+  background: #2b383e;
+  td {
+    border-top-color: #2b383e;
+  }
+  th {
+    border-top-color: #2b383e;
+    color: #fff;
+  }
+  > td {
+    color: #fff;
+    background: #2b383e;
+  }
+  > th {
+    color: #fff;
+    background: #2b383e;
+  }
+}
+.table-dark.table.table-bordered {
+  td {
+    border-color: #2b383e;
+  }
+  th {
+    border-color: #2b383e;
+  }
+}
+@media (max-width: 1200px) {
+  .table-responsive {
+    .table {
+      > tbody {
+        > tr {
+          > td {
+            white-space: nowrap;
+          }
+          > th {
+            white-space: nowrap;
+          }
+        }
+      }
+      > tfoot {
+        > tr {
+          > td {
+            white-space: nowrap;
+          }
+          > th {
+            white-space: nowrap;
+          }
+        }
+      }
+      > thead {
+        > tr {
+          > td {
+            white-space: nowrap;
+          }
+          > th {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}

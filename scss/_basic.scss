@@ -1,0 +1,26 @@
+ /****************************/
+/** Basic **/
+/****************************/
+/*CSS Basic*/
+.overflow-hide {
+	overflow: hidden !important;
+}
+.overflow-show {
+	overflow: visible !important;
+}
+.clearfix {
+	overflow: hidden;
+	clear: both;
+	float: none;
+}
+.word-break {
+	word-break: break-all;
+}
+.seprator-block {
+	margin-bottom: 80px;
+}
+.twa-2x {
+	background-size: 1.3em 1.3em;
+	height: 1.3em;
+	width: 1.3em;
+}

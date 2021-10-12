@@ -1,0 +1,71 @@
+/*Navbar*/
+
+/*navbar-light*/
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: $secondary;
+      &:hover {
+        color: $primary;
+        background-color: $accent;
+      }
+      &:focus {
+        color: rgba(50, 65, 72, 0.7);
+      }
+    }
+    .nav-link.active {
+      color: $primary;
+      background-color: $accent;
+    }
+    .nav-link.show {
+      color: #324148;
+    }
+    .nav-link.disabled {
+      color: rgba(50, 65, 72, 0.3);
+    }
+    .active {
+      > .nav-link {
+        color: #324148;
+      }
+    }
+    .show {
+      > .nav-link {
+        color: #324148;
+      }
+    }
+  }
+}
+
+/*navbar-dark*/
+.navbar-dark {
+  .navbar-nav {
+    .nav-link {
+      color: rgba(255, 255, 255, 0.5);
+      &:hover {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      &:focus {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    .nav-link.active {
+      color: #fff;
+    }
+    .nav-link.show {
+      color: #fff;
+    }
+    .nav-link.disabled {
+      color: rgba(255, 255, 255, 0.3);
+    }
+    .active {
+      > .nav-link {
+        color: #fff;
+      }
+    }
+    .show {
+      > .nav-link {
+        color: #fff;
+      }
+    }
+  }
+}

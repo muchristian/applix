@@ -1,0 +1,11 @@
+.list-group {
+  .list-group-item {
+    background-color: #fdfdfd;
+    padding: 0.85rem 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    .list-title-section {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

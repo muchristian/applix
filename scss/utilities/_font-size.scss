@@ -1,0 +1,609 @@
+/*Font Size*/
+.font-8 {
+  font-size: 8px !important;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-24 {
+  font-size: 24px !important;
+}
+.font-32 {
+  font-size: 32px !important;
+}
+.font-40 {
+  font-size: 40px !important;
+}
+.font-48 {
+  font-size: 48px !important;
+}
+.font-56 {
+  font-size: 56px !important;
+}
+.font-120 {
+  font-size: 120px !important;
+}
+// .font-19 {
+// 	font-size: 19px !important;
+// }
+// .font-20 {
+// 	font-size: 20px !important;
+// }
+// .font-21 {
+// 	font-size: 21px !important;
+// }
+// .font-22 {
+// 	font-size: 22px !important;
+// }
+// .font-23 {
+// 	font-size: 23px !important;
+// }
+// .font-24 {
+// 	font-size: 24px !important;
+// }
+// .font-25 {
+// 	font-size: 25px !important;
+// }
+// .font-26 {
+// 	font-size: 26px !important;
+// }
+// .font-27 {
+// 	font-size: 27px !important;
+// }
+// .font-28 {
+// 	font-size: 28px !important;
+// }
+// .font-29 {
+// 	font-size: 29px !important;
+// }
+// .font-30 {
+// 	font-size: 30px !important;
+// }
+// .font-31 {
+// 	font-size: 31px !important;
+// }
+// .font-32 {
+// 	font-size: 32px !important;
+// }
+// .font-33 {
+// 	font-size: 33px !important;
+// }
+// .font-34 {
+// 	font-size: 34px !important;
+// }
+// .font-35 {
+// 	font-size: 35px !important;
+// }
+// .font-36 {
+// 	font-size: 36px !important;
+// }
+// .font-37 {
+// 	font-size: 37px !important;
+// }
+// .font-38 {
+// 	font-size: 38px !important;
+// }
+// .font-39 {
+// 	font-size: 39px !important;
+// }
+// .font-40 {
+// 	font-size: 40px !important;
+// }
+// .font-41 {
+// 	font-size: 41px !important;
+// }
+// .font-42 {
+// 	font-size: 42px !important;
+// }
+// .font-43 {
+// 	font-size: 43px !important;
+// }
+// .font-44 {
+// 	font-size: 44px !important;
+// }
+// .font-45 {
+// 	font-size: 45px !important;
+// }
+// .font-46 {
+// 	font-size: 46px !important;
+// }
+// .font-47 {
+// 	font-size: 47px !important;
+// }
+// .font-48 {
+// 	font-size: 48px !important;
+// }
+// .font-49 {
+// 	font-size: 49px !important;
+// }
+// .font-50 {
+// 	font-size: 50px !important;
+// }
+// @media (min-width: 576px) {
+// 	.font-sm-11 {
+// 		font-size: 11px !important;
+// 	}
+// 	.font-sm-12 {
+// 		font-size: 12px !important;
+// 	}
+// 	.font-sm-13 {
+// 		font-size: 13px !important;
+// 	}
+// 	.font-sm-14 {
+// 		font-size: 14px !important;
+// 	}
+// 	.font-sm-15 {
+// 		font-size: 15px !important;
+// 	}
+// 	.font-sm-16 {
+// 		font-size: 16px !important;
+// 	}
+// 	.font-sm-17 {
+// 		font-size: 17px !important;
+// 	}
+// 	.font-sm-18 {
+// 		font-size: 18px !important;
+// 	}
+// 	.font-sm-19 {
+// 		font-size: 19px !important;
+// 	}
+// 	.font-sm-20 {
+// 		font-size: 20px !important;
+// 	}
+// 	.font-sm-21 {
+// 		font-size: 21px !important;
+// 	}
+// 	.font-sm-22 {
+// 		font-size: 22px !important;
+// 	}
+// 	.font-sm-23 {
+// 		font-size: 23px !important;
+// 	}
+// 	.font-sm-24 {
+// 		font-size: 24px !important;
+// 	}
+// 	.font-sm-25 {
+// 		font-size: 25px !important;
+// 	}
+// 	.font-sm-26 {
+// 		font-size: 26px !important;
+// 	}
+// 	.font-sm-27 {
+// 		font-size: 27px !important;
+// 	}
+// 	.font-sm-28 {
+// 		font-size: 28px !important;
+// 	}
+// 	.font-sm-29 {
+// 		font-size: 29px !important;
+// 	}
+// 	.font-sm-30 {
+// 		font-size: 30px !important;
+// 	}
+// 	.font-sm-31 {
+// 		font-size: 31px !important;
+// 	}
+// 	.font-sm-32 {
+// 		font-size: 32px !important;
+// 	}
+// 	.font-sm-33 {
+// 		font-size: 33px !important;
+// 	}
+// 	.font-sm-34 {
+// 		font-size: 34px !important;
+// 	}
+// 	.font-sm-35 {
+// 		font-size: 35px !important;
+// 	}
+// 	.font-sm-36 {
+// 		font-size: 36px !important;
+// 	}
+// 	.font-sm-37 {
+// 		font-size: 37px !important;
+// 	}
+// 	.font-sm-38 {
+// 		font-size: 38px !important;
+// 	}
+// 	.font-sm-39 {
+// 		font-size: 39px !important;
+// 	}
+// 	.font-sm-40 {
+// 		font-size: 40px !important;
+// 	}
+// 	.font-sm-41 {
+// 		font-size: 41px !important;
+// 	}
+// 	.font-sm-42 {
+// 		font-size: 42px !important;
+// 	}
+// 	.font-sm-43 {
+// 		font-size: 43px !important;
+// 	}
+// 	.font-sm-44 {
+// 		font-size: 44px !important;
+// 	}
+// 	.font-sm-45 {
+// 		font-size: 45px !important;
+// 	}
+// 	.font-sm-46 {
+// 		font-size: 46px !important;
+// 	}
+// 	.font-sm-47 {
+// 		font-size: 47px !important;
+// 	}
+// 	.font-sm-48 {
+// 		font-size: 48px !important;
+// 	}
+// 	.font-sm-49 {
+// 		font-size: 49px !important;
+// 	}
+// 	.font-sm-50 {
+// 		font-size: 50px !important;
+// 	}
+// }
+// @media (min-width: 768px) {
+// 	.font-md-11 {
+// 		font-size: 11px !important;
+// 	}
+// 	.font-md-12 {
+// 		font-size: 12px !important;
+// 	}
+// 	.font-md-13 {
+// 		font-size: 13px !important;
+// 	}
+// 	.font-md-14 {
+// 		font-size: 14px !important;
+// 	}
+// 	.font-md-15 {
+// 		font-size: 15px !important;
+// 	}
+// 	.font-md-16 {
+// 		font-size: 16px !important;
+// 	}
+// 	.font-md-17 {
+// 		font-size: 17px !important;
+// 	}
+// 	.font-md-18 {
+// 		font-size: 18px !important;
+// 	}
+// 	.font-md-19 {
+// 		font-size: 19px !important;
+// 	}
+// 	.font-md-20 {
+// 		font-size: 20px !important;
+// 	}
+// 	.font-md-21 {
+// 		font-size: 21px !important;
+// 	}
+// 	.font-md-22 {
+// 		font-size: 22px !important;
+// 	}
+// 	.font-md-23 {
+// 		font-size: 23px !important;
+// 	}
+// 	.font-md-24 {
+// 		font-size: 24px !important;
+// 	}
+// 	.font-md-25 {
+// 		font-size: 25px !important;
+// 	}
+// 	.font-md-26 {
+// 		font-size: 26px !important;
+// 	}
+// 	.font-md-27 {
+// 		font-size: 27px !important;
+// 	}
+// 	.font-md-28 {
+// 		font-size: 28px !important;
+// 	}
+// 	.font-md-29 {
+// 		font-size: 29px !important;
+// 	}
+// 	.font-md-30 {
+// 		font-size: 30px !important;
+// 	}
+// 	.font-md-31 {
+// 		font-size: 31px !important;
+// 	}
+// 	.font-md-32 {
+// 		font-size: 32px !important;
+// 	}
+// 	.font-md-33 {
+// 		font-size: 33px !important;
+// 	}
+// 	.font-md-34 {
+// 		font-size: 34px !important;
+// 	}
+// 	.font-md-35 {
+// 		font-size: 35px !important;
+// 	}
+// 	.font-md-36 {
+// 		font-size: 36px !important;
+// 	}
+// 	.font-md-37 {
+// 		font-size: 37px !important;
+// 	}
+// 	.font-md-38 {
+// 		font-size: 38px !important;
+// 	}
+// 	.font-md-39 {
+// 		font-size: 39px !important;
+// 	}
+// 	.font-md-40 {
+// 		font-size: 40px !important;
+// 	}
+// 	.font-md-41 {
+// 		font-size: 41px !important;
+// 	}
+// 	.font-md-42 {
+// 		font-size: 42px !important;
+// 	}
+// 	.font-md-43 {
+// 		font-size: 43px !important;
+// 	}
+// 	.font-md-44 {
+// 		font-size: 44px !important;
+// 	}
+// 	.font-md-45 {
+// 		font-size: 45px !important;
+// 	}
+// 	.font-md-46 {
+// 		font-size: 46px !important;
+// 	}
+// 	.font-md-47 {
+// 		font-size: 47px !important;
+// 	}
+// 	.font-md-48 {
+// 		font-size: 48px !important;
+// 	}
+// 	.font-md-49 {
+// 		font-size: 49px !important;
+// 	}
+// 	.font-md-50 {
+// 		font-size: 50px !important;
+// 	}
+// }
+// @media (min-width: 992px) {
+// 	.font-lg-11 {
+// 		font-size: 11px !important;
+// 	}
+// 	.font-lg-12 {
+// 		font-size: 12px !important;
+// 	}
+// 	.font-lg-13 {
+// 		font-size: 13px !important;
+// 	}
+// 	.font-lg-14 {
+// 		font-size: 14px !important;
+// 	}
+// 	.font-lg-15 {
+// 		font-size: 15px !important;
+// 	}
+// 	.font-lg-16 {
+// 		font-size: 16px !important;
+// 	}
+// 	.font-lg-17 {
+// 		font-size: 17px !important;
+// 	}
+// 	.font-lg-18 {
+// 		font-size: 18px !important;
+// 	}
+// 	.font-lg-19 {
+// 		font-size: 19px !important;
+// 	}
+// 	.font-lg-20 {
+// 		font-size: 20px !important;
+// 	}
+// 	.font-lg-21 {
+// 		font-size: 21px !important;
+// 	}
+// 	.font-lg-22 {
+// 		font-size: 22px !important;
+// 	}
+// 	.font-lg-23 {
+// 		font-size: 23px !important;
+// 	}
+// 	.font-lg-24 {
+// 		font-size: 24px !important;
+// 	}
+// 	.font-lg-25 {
+// 		font-size: 25px !important;
+// 	}
+// 	.font-lg-26 {
+// 		font-size: 26px !important;
+// 	}
+// 	.font-lg-27 {
+// 		font-size: 27px !important;
+// 	}
+// 	.font-lg-28 {
+// 		font-size: 28px !important;
+// 	}
+// 	.font-lg-29 {
+// 		font-size: 29px !important;
+// 	}
+// 	.font-lg-30 {
+// 		font-size: 30px !important;
+// 	}
+// 	.font-lg-31 {
+// 		font-size: 31px !important;
+// 	}
+// 	.font-lg-32 {
+// 		font-size: 32px !important;
+// 	}
+// 	.font-lg-33 {
+// 		font-size: 33px !important;
+// 	}
+// 	.font-lg-34 {
+// 		font-size: 34px !important;
+// 	}
+// 	.font-lg-35 {
+// 		font-size: 35px !important;
+// 	}
+// 	.font-lg-36 {
+// 		font-size: 36px !important;
+// 	}
+// 	.font-lg-37 {
+// 		font-size: 37px !important;
+// 	}
+// 	.font-lg-38 {
+// 		font-size: 38px !important;
+// 	}
+// 	.font-lg-39 {
+// 		font-size: 39px !important;
+// 	}
+// 	.font-lg-40 {
+// 		font-size: 40px !important;
+// 	}
+// 	.font-lg-41 {
+// 		font-size: 41px !important;
+// 	}
+// 	.font-lg-42 {
+// 		font-size: 42px !important;
+// 	}
+// 	.font-lg-43 {
+// 		font-size: 43px !important;
+// 	}
+// 	.font-lg-44 {
+// 		font-size: 44px !important;
+// 	}
+// 	.font-lg-45 {
+// 		font-size: 45px !important;
+// 	}
+// 	.font-lg-46 {
+// 		font-size: 46px !important;
+// 	}
+// 	.font-lg-47 {
+// 		font-size: 47px !important;
+// 	}
+// 	.font-lg-48 {
+// 		font-size: 48px !important;
+// 	}
+// 	.font-lg-49 {
+// 		font-size: 49px !important;
+// 	}
+// 	.font-lg-50 {
+// 		font-size: 50px !important;
+// 	}
+// }
+// @media (min-width: 1200px) {
+// 	.font-xl-11 {
+// 		font-size: 11px !important;
+// 	}
+// 	.font-xl-12 {
+// 		font-size: 12px !important;
+// 	}
+// 	.font-xl-13 {
+// 		font-size: 13px !important;
+// 	}
+// 	.font-xl-14 {
+// 		font-size: 14px !important;
+// 	}
+// 	.font-xl-15 {
+// 		font-size: 15px !important;
+// 	}
+// 	.font-xl-16 {
+// 		font-size: 16px !important;
+// 	}
+// 	.font-xl-17 {
+// 		font-size: 17px !important;
+// 	}
+// 	.font-xl-18 {
+// 		font-size: 18px !important;
+// 	}
+// 	.font-xl-19 {
+// 		font-size: 19px !important;
+// 	}
+// 	.font-xl-20 {
+// 		font-size: 20px !important;
+// 	}
+// 	.font-xl-21 {
+// 		font-size: 21px !important;
+// 	}
+// 	.font-xl-22 {
+// 		font-size: 22px !important;
+// 	}
+// 	.font-xl-23 {
+// 		font-size: 23px !important;
+// 	}
+// 	.font-xl-24 {
+// 		font-size: 24px !important;
+// 	}
+// 	.font-xl-25 {
+// 		font-size: 25px !important;
+// 	}
+// 	.font-xl-26 {
+// 		font-size: 26px !important;
+// 	}
+// 	.font-xl-27 {
+// 		font-size: 27px !important;
+// 	}
+// 	.font-xl-28 {
+// 		font-size: 28px !important;
+// 	}
+// 	.font-xl-29 {
+// 		font-size: 29px !important;
+// 	}
+// 	.font-xl-30 {
+// 		font-size: 30px !important;
+// 	}
+// 	.font-xl-31 {
+// 		font-size: 31px !important;
+// 	}
+// 	.font-xl-32 {
+// 		font-size: 32px !important;
+// 	}
+// 	.font-xl-33 {
+// 		font-size: 33px !important;
+// 	}
+// 	.font-xl-34 {
+// 		font-size: 34px !important;
+// 	}
+// 	.font-xl-35 {
+// 		font-size: 35px !important;
+// 	}
+// 	.font-xl-36 {
+// 		font-size: 36px !important;
+// 	}
+// 	.font-xl-37 {
+// 		font-size: 37px !important;
+// 	}
+// 	.font-xl-38 {
+// 		font-size: 38px !important;
+// 	}
+// 	.font-xl-39 {
+// 		font-size: 39px !important;
+// 	}
+// 	.font-xl-40 {
+// 		font-size: 40px !important;
+// 	}
+// 	.font-xl-41 {
+// 		font-size: 41px !important;
+// 	}
+// 	.font-xl-42 {
+// 		font-size: 42px !important;
+// 	}
+// 	.font-xl-43 {
+// 		font-size: 43px !important;
+// 	}
+// 	.font-xl-44 {
+// 		font-size: 44px !important;
+// 	}
+// 	.font-xl-45 {
+// 		font-size: 45px !important;
+// 	}
+// 	.font-xl-46 {
+// 		font-size: 46px !important;
+// 	}
+// 	.font-xl-47 {
+// 		font-size: 47px !important;
+// 	}
+// 	.font-xl-48 {
+// 		font-size: 48px !important;
+// 	}
+// 	.font-xl-49 {
+// 		font-size: 49px !important;
+// 	}
+// 	.font-xl-50 {
+// 		font-size: 50px !important;
+// 	}
+// }

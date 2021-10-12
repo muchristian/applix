@@ -1,0 +1,206 @@
+{
+  "navbar": {
+    "home":"Accueil",
+    "about": "A Propos de nous",
+    "service": "Nos Solutions",
+    "contactUs": "Contactez-nous"
+  },
+  "homespan": "fait",
+  "homeH6": "vous êtes une entreprise, une collectivité ou un particulier",
+  "homeH1": "et vous souhaitez optimiser vos services ?",
+  "aboutUs": {
+    "aboutUsTitle": "A Propos de nous",
+    "aboutUs": {
+      "title": "A Propos de nous",
+      "subTitle": "A propos d’Applix :",
+      "description": "Nous avons fondé notre philosophie sur la réussite du partenariat. Nous avons réuni plusieurs partenaires Africains et Européens, expérimentés et spécialisés dans les nouvelles technologies avec une longue expérience et des compétences très variées dans les entreprises privées et les services publics."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "Construire des relations à long terme avec nos clients et nos partenaires grâce à la qualité et l’excellence de nos services."
+    },
+    "objective": {
+      "title": "Objectif & Mission",
+      "description": "Mettre les nouvelles technologies au service de la rentabilité, du développement durable et du progrès social de notre clientèle."
+    },
+    "coreValues": {
+      "title": "Valeurs fondamentales",
+      "description": ["Excellence", "Respect", "Intégrité", "Ethique"]
+    },
+    "other": {
+      "title": "Le client est roi",
+      "subTitle": "Chez Applix",
+      "description": "nous partons du principe que. De ce fait, nous nous devons de lui être royal."
+    }
+  },
+  "services": {
+    "serviceTitle": "Nos Solutions",
+    "health": {
+      "title": "Santé",
+      "subTitle": "Dans les secteurs cliniques et médico-administratifs, nous offrons :",
+      "description": ["Système de santé mobile", "Système de gestion hospitalière"],
+      "more": {
+        "title1H1": "Le Système de soins de santé mobile",
+        "subText1": "Notre plateforme est conçue pour fournir des services de santé sécurisés et efficaces.",
+        "benefits": {
+          "title": "Les avantages",
+          "description":["réduction des barrières géographiques grâce à une collecte et un partage optimisé des données entre les patients ou l’entourage et les professionnels de santé.", "collecter, visualiser et partager de manière permanente des informations relatives à la santé et au bien-être pour favoriser l’autonomie chez un patient et assurer une meilleure prise en charge."]
+        },
+        "title2H1": "Le Système information et de gestion hospitalière (SIGH)",
+        "subText2": "Notre logiciel de gestion hospitalière est conçu pour permettre les échanges d&#39;informations entre médecins, les hôpitaux ou les réseaux de santé.",
+        "func": {
+          "title": "FONCTIONNALITÉS",
+          "description": ["Planification des rendez-vous et gestion administratif",
+            "Gestion des examens médicaux",
+            "Gestion du personnel",
+            "Gestion des dossiers patients",
+            "Gestion de Stock",
+            "Gestion de la facturation",
+            "Gestion de notifications &amp; alertes"]
+        },
+        "benefits1": {
+          "title": "Les Avantages de notre système",
+          "description": [
+            "une meilleure prise en charge du patient par un dossier unique partagé",
+"une intégration des éléments cliniques, opérationnels et financiers",
+"optimisation du flux de travail et la réduction des dépenses opérationnelles.",
+"outil d’aide à la décision pour les administrateurs et aux professionnels de santé"
+          ]
+        }
+      }
+    },
+    "sport": {
+      "title": "Sport",
+      "subTitle": "Nos produits :",
+      "description": ["un traceur GPS professionnel de marque Sonda Sports", "un gilet porteur de marque Sonda Sports", "un moniteur de fréquence cardiaque de marque Polar", "une plateforme d’analyse pour les entraineurs et les joueurs"],
+      "more": {
+        "subText": "Sonda Sports GPS Tracker est un outil professionnel pour le suivi des performances des athlètes. L&#39;appareil est équipé d&#39;un module GPS, d&#39;un accéléromètre, d&#39;un gyroscope et d&#39;un magnétomètre. Il vous permet de suivre les mouvements de chaque joueur et de nombreuses mesures clés à chaque étape de l&#39;entraînement.",
+        "performance": {
+          "title": "Notre outil de gestion de la performance, est conçu pour :",
+          "description": ["L’analyse et la surveillance de la condition physique",
+            "Le suivi de la performance",
+            "La gestion de la fatigue aux entrainements et matches",
+            "La prévention des blessures par l’évaluation de la charge de travail"]
+        },
+        "tools": {
+          "title": "Avec nos outils, vous pouvez :",
+          "description": ["Augmenter les performances en améliorant la vitesse et l&#39;endurance des joueurs",
+            "Sélectionner la meilleure équipe par une bonne planification et une prise de décisions basées sur des données fiables",
+            "Protéger les joueurs grâce à la gestion de la charge d&#39;entraînement",
+            "Enfin, développer votre équipe et soyez promu dans les classements"]
+        }
+      }
+    },
+    "government": {
+      "title": "Administration en ligne",
+      "subTitle": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
+      "description": ["Inscription en ligne de l'entreprise", "E-licence", "E-gouvernement", "E-procurement"],
+      "more": {
+        "subText": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
+        "description": ["Services d’administration locale (certificat de naissance, certificat de mariage, certificat de décès, certificat de nationalité, certificat de divorce, certificat de casier judiciaire, etc.)", "Services liés aux terres (enregistrement foncier, transfert de terres, transfert de terres, changement d’utilisation des terres, service de paiement, etc.)", "Services de police (amendes routières, demande de permis de conduire, inscription à l’examen de conduite, renouvellement du permis de conduire, inspection des véhicules automobiles, etc.)", "Services gouvernementaux (enregistrement des entreprises, enregistrement des ONG, services notariés, etc.)", "Services de l’immigration (Visa, Laisser-Passer, Carte d’identité étrangers, enregistrement pour la citoyenneté, permis de travail et de résidence, etc.)"]
+      }
+    },
+    "banking": {
+      "title": "Bancaire",
+      "description": "Découvrez nos solutions sur mesure pour le secteur bancaire et financier.",
+      "more": {
+        "titleH1": "Solutions bancaires",
+        "description": [
+          {
+            "title": "USSD Mobile Banking:",
+            "description": "Donne accès aux services bancaires sur téléphone mobile."
+          },
+          {
+            "title": "Solution de compensation et de paiement: ",
+            "description": "Permet l’échange des transactions interbancaires par l’intermédiaire de la chambre de compensation centrale (Système de dématérialisation de chèques et de transfert automatisé)."
+          },
+          {
+            "title": "Agence bancaire basée sur Android:",
+            "description": "Étend les services d’agencesaux clients par l’intermédiaire d’agents bancaires."
+          },
+          {
+            "title": "Plate-forme de micro-crédit:",
+            "description": "Micro-crédits automatisés et plate-forme d’avance sur salaire."
+          },
+          {
+            "title": "Passerelle ATM:",
+            "description": "Facilite la communication entre le système bancaire et le switch en utilisant les normes de message ISO8583."
+          },
+          {
+            "title": "Internet Banking:",
+            "description": "Il s’agit d’une plate-forme en ligne permettant aux clients d’effectuer des transactions en temps réel sur leurs comptes."
+          },
+          {
+            "title": "Intégration e-wallet:",
+            "description": "Intégration avec différents systèmes de transfert d’argent pour les opérateurs mobiles."
+          },
+          {
+            "title": "E-statement:",
+            "description": "Il s’agit d’une génération automatisée de relevés de compte pour les clients."
+          },
+          {
+            "title": "Notification par e-mail et SMS:",
+            "description": "Ce système permet à la banque d’envoyer automatiquement des SMS personnalisés et des notifications par courriel aux clients au fur et à mesure que les transactions se produisent."
+          },
+          {
+            "title": "Expertise pour migration des systèmes bancaires:",
+            "description": "Nous offrons des conseils pour migration vers un nouveau système bancaire ou nous pouvons vous aider à préparer le document d’appel d’offre pour l’acquision d’un système bancaire ."
+          },
+          {
+            "title": "Système de traitement des salaires:",
+            "description": "Traiter les paiements des salaires en masse (par batch). "
+          },
+          {
+            "title": "Interface de paiement de taxes:",
+            "description": "Interface utilisee par les banques pour le paiement de taxes instantané."
+          },
+          {
+            "title": "Système de réconciliation:",
+            "description": "Systeme de reconciliation entre le logiciel de comptabilite et systemes connexes."
+          },
+          {
+            "title": "Syteme bancaire pour les microfinances:",
+            "description": "Ce système permet aux microfinances de gérer leurs comptes courants et leurs comptes de crédits ainsi que leurs clients."
+          }
+        ]
+        
+      }
+    },
+    "filing": {
+      "title": "Archivage électronique",
+      "description": "Pour les institutions privées et publiques, nous proposons un logiciel de numérisation et de gestion de documents appelé Search express",
+      "more": {
+        "titleH6": "Vous pouvez :",
+        "description": ["conserver vos documents de façon sécurisée et contrôlée", "gagner du temps quand vous chercher un dossiers","acceder aux dossiers à distance", "protéger l’environnement", "gagner de l’espace en libérant les salles d’archives"]
+      }
+    }
+  },
+  "tools": {
+    "toolsTitle": "Nos outils de développement logiciel"
+  },
+  "contactUs": {
+    "contactUsTitle": "Entrer en contact",
+    "name": {
+      "label": "Nom",
+      "placeholder": "votre nom"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "votre email"
+    },
+    "title": {
+      "label": "Titre",
+      "placeholder": "écrire le titre"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "écrire un message"
+    }
+  },
+  "moreBtn": "LIRE LA SUITE",
+  "sendBtn": "Envoyer message",
+  "footerDesciption": "Créé pour améliorer vos performances organisationnelles, sociales et économiques, Applix s’adapte à votre environnement.",
+  "footerCol1Title": "Emplacement",
+  "footerCol2Title": "Courriel et téléphone",
+  "footerCol3Title": "Des médias sociaux"
+}

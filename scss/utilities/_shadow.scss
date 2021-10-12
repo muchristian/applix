@@ -1,0 +1,156 @@
+/*Shadow*/
+.shadow-none {
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-top {
+	box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-bottom {
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-left {
+	box-shadow: -2px 0 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-right {
+	box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-sm {
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-sm.shadow-top {
+	box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-sm.shadow-bottom {
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-sm.shadow-left {
+	box-shadow: -2px 0 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-sm.shadow-right {
+	box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-hover-sm {
+	-webkit-transition: box-shadow 0.3s ease;
+	-moz-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
+	&:hover {
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-top {
+		box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-bottom {
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-left {
+		box-shadow: -2px 0 2px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-right {
+		box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1) !important;
+	}
+}
+.shadow {
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow.shadow-top {
+	box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow.shadow-bottom {
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow.shadow-left {
+	box-shadow: -4px 0 5px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow.shadow-right {
+	box-shadow: 4px 0 5px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-hover {
+	-webkit-transition: box-shadow 0.3s ease;
+	-moz-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
+	&:hover {
+		box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-top {
+		box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-bottom {
+		box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-left {
+		box-shadow: -4px 0 5px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-right {
+		box-shadow: 4px 0 5px rgba(0, 0, 0, 0.1) !important;
+	}
+}
+.shadow-lg {
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-lg.shadow-top {
+	box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-lg.shadow-bottom {
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-lg.shadow-left {
+	box-shadow: -6px 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-lg.shadow-right {
+	box-shadow: 6px 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-hover-lg {
+	-webkit-transition: box-shadow 0.3s ease;
+	-moz-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
+	&:hover {
+		box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-top {
+		box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-bottom {
+		box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-left {
+		box-shadow: -6px 0 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-right {
+		box-shadow: 6px 0 10px rgba(0, 0, 0, 0.1) !important;
+	}
+}
+.shadow-xl {
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-xl.shadow-top {
+	box-shadow: 0 -8px 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-xl.shadow-bottom {
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-xl.shadow-left {
+	box-shadow: -8px 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-xl.shadow-right {
+	box-shadow: 8px 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-hover-xl {
+	-webkit-transition: box-shadow 0.3s ease;
+	-moz-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
+	&:hover {
+		box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-top {
+		box-shadow: 0 -8px 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-bottom {
+		box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-left {
+		box-shadow: -8px 0 10px rgba(0, 0, 0, 0.1) !important;
+	}
+	&:hover.shadow-right {
+		box-shadow: 8px 0 10px rgba(0, 0, 0, 0.1) !important;
+	}
+}

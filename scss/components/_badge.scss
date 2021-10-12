@@ -1,0 +1,371 @@
+/*Badge*/
+.badge {
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px 7px;
+  font-size: 72%;
+  letter-spacing: 0.3px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  text-transform: capitalize;
+}
+.badge.badge-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  padding: 0;
+  position: relative;
+  &:empty {
+    display: inline-block;
+  }
+}
+.badge.badge-indicator.badge-indicator-sm {
+  width: 5px;
+  height: 5px;
+}
+.badge.badge-sm {
+  padding: 3px 5px;
+  font-size: 60%;
+}
+.badge.badge-info {
+  background: #1ebccd;
+  color: #fff;
+}
+.badge.badge-cyan {
+  background: #1ebccd;
+  color: #fff;
+}
+.badge.badge-primary {
+  background: #00acf0;
+  color: #fff;
+}
+.badge.badge-sky {
+  background: #00acf0;
+  color: #fff;
+}
+.badge.badge-success {
+  background: #22af47;
+  color: #fff;
+}
+.badge.badge-green {
+  background: #22af47;
+  color: #fff;
+}
+.badge.badge-danger {
+  background: #f83f37;
+  color: #fff;
+}
+.badge.badge-red {
+  background: #f83f37;
+  color: #fff;
+}
+.badge.badge-warning {
+  background: #ffbf36;
+  color: #fff;
+}
+.badge.badge-yellow {
+  background: #ffbf36;
+  color: #fff;
+}
+.badge.badge-pink {
+  background: #ed1b60;
+  color: #fff;
+}
+.badge.badge-purple {
+  background: #ab26aa;
+  color: #fff;
+}
+.badge.badge-violet {
+  background: #6640b2;
+  color: #fff;
+}
+.badge.badge-indigo {
+  background: #3a55b1;
+  color: #fff;
+}
+.badge.badge-blue {
+  background: #0092ee;
+  color: #fff;
+}
+.badge.badge-teal {
+  background: #009b84;
+  color: #fff;
+}
+.badge.badge-neon {
+  background: #88c241;
+  color: #fff;
+}
+.badge.badge-lime {
+  background: #d0d962;
+  color: #fff;
+}
+.badge.badge-sun {
+  background: #fde335;
+  color: #fff;
+}
+.badge.badge-orange {
+  background: #ff9528;
+  color: #fff;
+}
+.badge.badge-pumpkin {
+  background: #ff6028;
+  color: #fff;
+}
+.badge.badge-brown {
+  background: #7a5449;
+  color: #fff;
+}
+.badge.badge-gold {
+  background: #c1993f;
+  color: #fff;
+}
+.badge.badge-smoke {
+  background: #5e7d8a;
+  color: #fff;
+}
+.badge.badge-secondary {
+  background: #9e9e9e;
+  color: #fff;
+}
+.badge.badge-grey {
+  background: #9e9e9e;
+  color: #fff;
+}
+.badge.badge-light {
+  background: #eaecec;
+  color: #324148;
+}
+.badge.badge-dark {
+  background: #324148;
+  color: #fff;
+}
+.badge.badge-outline {
+  background: transparent;
+  border: 2px solid;
+}
+.badge.badge-outline.badge-info {
+  border-color: #1ebccd;
+  color: #1ebccd;
+}
+.badge.badge-outline.badge-cyan {
+  border-color: #1ebccd;
+  color: #1ebccd;
+}
+.badge.badge-outline.badge-primary {
+  border-color: #00acf0;
+  color: #00acf0;
+}
+.badge.badge-outline.badge-sky {
+  border-color: #00acf0;
+  color: #00acf0;
+}
+.badge.badge-outline.badge-success {
+  border-color: #22af47;
+  color: #22af47;
+}
+.badge.badge-outline.badge-green {
+  border-color: #22af47;
+  color: #22af47;
+}
+.badge.badge-outline.badge-danger {
+  border-color: #f83f37;
+  color: #f83f37;
+}
+.badge.badge-outline.badge-red {
+  border-color: #f83f37;
+  color: #f83f37;
+}
+.badge.badge-outline.badge-warning {
+  border-color: #ffbf36;
+  color: #ffbf36;
+}
+.badge.badge-outline.badge-yellow {
+  border-color: #ffbf36;
+  color: #ffbf36;
+}
+.badge.badge-outline.badge-secondary {
+  border-color: #9e9e9e;
+  color: #9e9e9e;
+}
+.badge.badge-outline.badge-grey {
+  border-color: #9e9e9e;
+  color: #9e9e9e;
+}
+.badge.badge-outline.badge-light {
+  border-color: #eaecec;
+  color: #324148;
+}
+.badge.badge-outline.badge-dark {
+  border-color: #324148;
+  color: #324148;
+}
+.badge.badge-outline.badge-pink {
+  border-color: #ed1b60;
+  color: #ed1b60;
+}
+.badge.badge-outline.badge-purple {
+  border-color: #ab26aa;
+  color: #ab26aa;
+}
+.badge.badge-outline.badge-violet {
+  border-color: #6640b2;
+  color: #6640b2;
+}
+.badge.badge-outline.badge-indigo {
+  border-color: #3a55b1;
+  color: #3a55b1;
+}
+.badge.badge-outline.badge-blue {
+  border-color: #0092ee;
+  color: #0092ee;
+}
+.badge.badge-outline.badge-teal {
+  border-color: #009b84;
+  color: #009b84;
+}
+.badge.badge-outline.badge-neon {
+  border-color: #88c241;
+  color: #88c241;
+}
+.badge.badge-outline.badge-lime {
+  border-color: #d0d962;
+  color: #d0d962;
+}
+.badge.badge-outline.badge-sun {
+  border-color: #fde335;
+  color: #fde335;
+}
+.badge.badge-outline.badge-orange {
+  border-color: #ff9528;
+  color: #ff9528;
+}
+.badge.badge-outline.badge-pumpkin {
+  border-color: #ff6028;
+  color: #ff6028;
+}
+.badge.badge-outline.badge-brown {
+  border-color: #7a5449;
+  color: #7a5449;
+}
+.badge.badge-outline.badge-gold {
+  border-color: #c1993f;
+  color: #c1993f;
+}
+.badge.badge-soft-cyan {
+  background: #effafb;
+  color: #1ebccd;
+}
+.badge.badge-soft-info {
+  background: #effafb;
+  color: #1ebccd;
+}
+.badge.badge-soft-sky {
+  background: #edf9fe;
+  color: #00acf0;
+}
+.badge.badge-soft-primary {
+  background: #edf9fe;
+  color: #00acf0;
+}
+.badge.badge-soft-green {
+  background: #eff9f2;
+  color: #22af47;
+}
+.badge.badge-soft-success {
+  background: #eff9f2;
+  color: #22af47;
+}
+.badge.badge-soft-red {
+  background: #fff1f1;
+  color: #f83f37;
+}
+.badge.badge-soft-danger {
+  background: #fff1f1;
+  color: #f83f37;
+}
+.badge.badge-soft-yellow {
+  background: #fff8eb;
+  color: #ffbf36;
+}
+.badge.badge-soft-warning {
+  background: #fff8eb;
+  color: #ffbf36;
+}
+.badge.badge-soft-pink {
+  background: #feeff4;
+  color: #ed1b60;
+}
+.badge.badge-soft-purple {
+  background: #f9f0f9;
+  color: #ab26aa;
+}
+.badge.badge-soft-violet {
+  background: #f4f2fa;
+  color: #6640b2;
+}
+.badge.badge-soft-indigo {
+  background: #f1f3f9;
+  color: #3a55b1;
+}
+.badge.badge-soft-blue {
+  background: #edf7fe;
+  color: #0092ee;
+}
+.badge.badge-soft-teal {
+  background: #edf8f6;
+  color: #009b84;
+}
+.badge.badge-soft-neon {
+  background: #f3f9ec;
+  color: #88c241;
+}
+.badge.badge-soft-lime {
+  background: #f9faeb;
+  color: #d0d962;
+}
+.badge.badge-soft-sun {
+  background: #fffbe5;
+  color: #fde335;
+}
+.badge.badge-soft-orange {
+  background: #fff4e9;
+  color: #ff9528;
+}
+.badge.badge-soft-pumpkin {
+  background: #fff4f0;
+  color: #ff6028;
+}
+.badge.badge-soft-brown {
+  background: #f6f3f2;
+  color: #7a5449;
+}
+.badge.badge-soft-gold {
+  background: #fbf8f1;
+  color: #c1993f;
+}
+.badge.badge-soft-smoke {
+  background: #f4f6f7;
+  color: #5e7d8a;
+}
+.badge.badge-soft-grey {
+  background: #f5f5f5;
+  color: #9e9e9e;
+}
+.badge.badge-soft-secondary {
+  background: #f5f5f5;
+  color: #9e9e9e;
+}
+.badge.badge-pill {
+  border-radius: 50px;
+}
+.badge-indicator-demo {
+  .badge-indicator {
+    bottom: 2px;
+  }
+}
+.btn {
+  .badge {
+    top: -2px;
+  }
+}

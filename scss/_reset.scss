@@ -1,0 +1,172 @@
+/****************************/
+/** Reset **/
+/****************************/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+em {
+  font-style: italic;
+}
+cite {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+body {
+  color: #5e7d8a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  background: #fff;
+  overflow-x: hidden;
+}
+.main-font {
+  font-family: "Inter", sans-serif;
+}
+.jq-toast-wrap {
+  .jq-toast-single {
+    font-family: "Inter", sans-serif;
+    .jq-toast-heading {
+      font-family: "Inter", sans-serif;
+    }
+  }
+}
+a {
+  &:hover {
+    outline: 0;
+    text-decoration: none;
+    color: #22af47;
+  }
+  &:active {
+    outline: 0;
+  }
+  text-decoration: none;
+  color: #22af47;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  &:focus {
+    text-decoration: none;
+    outline: none;
+    color: #22af47;
+  }
+}
+ul {
+  list-style: none;
+}
+h1 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
+}
+h2 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+h3 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.75rem;
+}
+h4 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.5rem;
+}
+h5 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+h6 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+.h1 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
+}
+.h2 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+.h3 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.75rem;
+}
+.h4 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.5rem;
+}
+.h5 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+.h6 {
+  color: #324148;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+p.lead {
+  font-size: 18px;
+  font-weight: 400;
+  color: #324148;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+.force-UTF-8 {
+  content: "┬í";
+}
+dt {
+  font-weight: 600;
+}
+::-webkit-file-upload-button {
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .h1 {
+    font-size: 2.2rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+}

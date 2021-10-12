@@ -1,0 +1,101 @@
+/*Form*/
+.form-control {
+  color: #324148;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  height: calc(2.25rem + 4px);
+  &:focus {
+    box-shadow: none;
+    border-color: $secondary;
+  }
+  &:disabled {
+    background-color: #fff;
+    border-color: #f5f5f6;
+    color: #c1c6c8;
+    opacity: 1;
+  }
+  &::-webkit-input-placeholder {
+    color: #c1c6c8;
+  }
+  &:-moz-placeholder {
+    color: #c1c6c8;
+  }
+  &::-moz-placeholder {
+    color: #c1c6c8;
+  }
+  &:-ms-input-placeholder {
+    color: #c1c6c8;
+  }
+}
+
+.form-control.square-input {
+  border-radius: 0;
+}
+.form-control[readonly] {
+  background-color: #fff;
+  border-color: #d6d9da;
+}
+.form-control.filled-input {
+  background: #f5f5f6;
+  border: none;
+  &:focus {
+    background: #eaecec;
+    border: none;
+    box-shadow: none;
+  }
+  &:disabled {
+    background: rgba(245, 245, 246, 0.6);
+  }
+}
+.form-control.filled-input[readonly] {
+  background-color: #d6d9da;
+}
+.form-control.outline-input {
+  background: transparent;
+}
+.form-control.transparent-input {
+  background: transparent;
+  border: none;
+  &:focus {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+}
+.form-control.rounded-input {
+  border-radius: 50px;
+}
+.form-control-lg {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  height: calc(2.875rem + 4px);
+}
+.custom-select-lg {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  height: calc(2.875rem + 4px);
+}
+.form-control-sm {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  height: calc(1.8125rem + 4px);
+}
+.custom-select-sm {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  height: calc(1.8125rem + 4px);
+}
+.custom-select {
+  padding-right: 1.75rem;
+}
+
+select.lang {
+  height: 30px;
+  background: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+option[selected] {
+  color: $accent;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="favicon/favicon-32x32.png"/>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Applix</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-light fixed-top hk-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img
+              class="brand-img d-inline-block"
+              src="6S15AQ.tif.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            href="javascript:void(0);"
+            ><span class="feather-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-more-vertical"
+              >
+                <circle cx="12" cy="12" r="1"></circle>
+                <circle cx="12" cy="5" r="1"></circle>
+                <circle cx="12" cy="19" r="1"></circle></svg></span
+          ></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="/" class="nav-link active"><%= navbar.home %></a>
+              </li>
+              <li class="nav-item">
+                <a href="/about" class="nav-link"><%= navbar.about %></a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-link"><%= navbar.service %></a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-link"><%= navbar.contactUs %></a>
+              </li>
+              <li class="nav-item">
+                <select class="lang">
+                  <option value="en">EN</option>
+                  <option value="fr">FR</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row" style="margin-top: 72px">
+        <div class="col-md-12"></div>
+      </div>
+    </header>
+    <div class="hk-pg-wrapper" style="min-height: 215px">
+      <div class="container mb-40">
+        <p class="mt-40">
+          <%= services.government.more.subText %>
+        </p>
+        <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+          <%  for (let des of services.government.more.description){ %>
+            <li><%= des %></li>
+            <% } %>
+        </ul>
+      </div>
+      <div class="hk-footer-wrap">
+        <div class="sub-footer pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 d-flex align-items-center flex-column">
+                <img
+              class="brand-img d-inline-block mb-16"
+              src="6S15AQ.tif.png"
+              alt="brand"
+            />
+                <p class="description">
+                  <%= footerDesciption %>
+                </p>
+              </div>
+            </div>
+            <hr class="mt-24 mb-24" />
+            <div class="row more-features">
+              <div class="col-sm-12 col-md-4">
+                <div class="card border-0 shadow-none">
+                  <img src="Asset 72.png" width="48" height="48"/>
+                  <div class="card-body pa-0 mt-16">
+                    <h6 class="mb-8"><%= footerCol1Title %></h6>
+                    <p>
+                      M-Peace Plaza, Wing A, 6th Floor , KN 48 ST
+                      <br/>
+                      P.O Box: 71 Kigali-Rwanda
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <div class="card border-0 shadow-none">
+                  <img src="Asset 71.png" width="48" height="48"/>
+                  <div class="card-body pa-0 mt-16">
+                    <h6 class="mb-8"><%= footerCol2Title %></h6>
+                    <p>
+                      info@applix.africa
+                      <br/>
+                      +250 784 285 313
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <div class="card border-0 shadow-none">
+                  <img src="Asset 70.png" width="48" height="48"/>
+                  <div class="card-body pa-0 mt-16">
+                    <h6 class="mb-8"><%= footerCol3Title %></h6>
+                    <ul class="d-flex mt-16">
+                      <li><a href="https://web.facebook.com/Applix.africa"><i class="fab fa-facebook-f mr-16" style="font-size: 24px;"></i></a></li>
+                      <li><a href="https://twitter.com/ApplixLtd"><i class="fab fa-twitter mr-16" style="font-size: 24px;"></i></a></li>
+                      <li><a href="https://www.instagram.com/applixltd/"><i class="fab fa-instagram mr-16" style="font-size: 24px;"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/applixafrica"><i class="fab fa-linkedin-in mr-16" style="font-size: 24px;"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="row">
+            <div class="col-md-12 pt-8 pb-8 text-center">
+              <a href="#" class="d-inline-block btn btn-icon btn-icon-only"
+                ><span class="btn-icon-wrap"
+                  ><i class="fab fa-facebook-f"></i></span
+              ></a>
+              <a href="#" class="d-inline-block btn btn-icon btn-icon-only"
+                ><span class="btn-icon-wrap"><i class="fab fa-twitter"></i></span
+              ></a>
+              <a href="#" class="d-inline-block btn btn-icon btn-icon-only"
+                ><span class="btn-icon-wrap"
+                  ><i class="fab fa-google-plus-g"></i></span
+              ></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</html>

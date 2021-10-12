@@ -1,0 +1,200 @@
+{
+  "navbar": {
+    "home":"Home",
+    "about": "About Us",
+    "service": "Our Solutions",
+    "contactUs": "Contact Us"
+  },
+  "homespan": "Do",
+  "homeH6": "you own a business, an NGO or an authority;",
+  "homeH1": "and you wish to optimize your services?",
+  "aboutUs": {
+    "aboutUsTitle": "About Us",
+    "aboutUs": {
+      "title": "About Us",
+      "subTitle": "About Applix :",
+      "description": "We have based our philosophy on successful partnership. We have brought together a number of experienced African and European partners specialising in new technologies with a long track record and a wide range of skills in private companies and public services."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "Building long-term relationships with our customers and partners through our first-rate and quality services."
+    },
+    "objective": {
+      "title": "Objective & Mission",
+      "description": "Putting new technologies at the service of profitability, sustainable development and social progress for our customers."
+    },
+    "coreValues": {
+      "title": "Core Values",
+      "description": ["Excellence", "Respect", "Integrity", "Ethics"]
+    },
+    "other": {
+      "title": "The customer is king.",
+      "subTitle": "For Applix",
+      "description": "Therefore, we owe it to him to be royal."
+    }
+  },
+  "services": {
+    "serviceTitle": "Our Solutions",
+    "health": {
+      "title": "Health",
+      "subTitle": "In the clinical and medical administrative sectors, we offer:",
+      "description": ["Mobile healthcare system", "Hospital management system"],
+      "more": {
+        "title1H1": "The Mobile Health Care System",
+        "subText1": "Our platform is designed to provide safe and efficient healthcare services.",
+        "benefits": {
+          "title": "The benefits include",
+          "description": ["Reduce geographical barriers through optimized data collection and sharing between patients or family members and healthcare professionals.", "Collect, visualize and share health and wellness information on an ongoing basis to support patient autonomy and ensure better care."]
+        },
+        "title2H1": "The Hospital Management Information System (HMIS)",
+        "subText2": "Our hospital management software is designed to allow information exchanges between physicians, hospitals or health networks.",
+        "func": {
+          "title": "FUNCTIONALITIES",
+          "description": ["Appointment scheduling and administrative management", "Management of medical examinations", "Personnel management", "Patient file management", "Inventory management", "Billing Management", "Notifications & Alerts Management"]
+        },
+        "benefits1": {
+          "title": "Benefits of our system",
+          "description": ["better patient management through a single shared record", "integration of clinical, operational and financial elements", "optimization of workflow and reduction of operational expenses", "decision support tool for administrators and healthcare professionals"]
+        }
+      }
+    },
+    "sport": {
+      "title": "Sport",
+      "subTitle": "Our products :",
+      "description": ["A professional GPS tracker from Sonda Sports", "Sonda Sports Vest", "Polar heart rate monitor", "An analysis software for coaches and players"],
+      "more": {
+        "subText": "Sonda Sports GPS Tracker is a professional tool for monitoring the performance of athletes. The device is equipped with a GPS module, accelerometer, gyroscope and magnetometer. It allows you to track every player's movement and many key metrics at each stage of training.",
+        "performance": {
+          "title": "Our performance management tool is designed for :",
+          "description": ["Fitness analysis and monitoring",
+            "Performance monitoring",
+            "Fatigue management in training and matches",
+            "Injury prevention through workload assessment"]
+        },
+        "tools": {
+          "title": "With our tools you can :",
+          "description": [
+            "Increase performance by improving players' speed and endurance",
+"Select the best squad through good planning and decision making based on reliable data",
+"Protect players through training load management",
+"Finally, develop your team and be promoted in the rankings"
+          ]
+        }
+      }
+    },
+    "government": {
+      "title": "Online administration",
+      "subTitle": "This platform will allow citizens to apply online for public services such as :",
+      "description": ["Online company registration", "E-licencing", "E-government", "E-procurement"],
+      "more": {
+        "subText": "This platform will allow citizens to apply online for public services such as :",
+        "description": ["Local government services (birth certificate, marriage certificate, death certificate, nationality certificate, divorce certificate, criminal record certificate, etc.)",
+          "Land-related services (land registration, land transfer, land transfer, change of land use, payment service, etc.)",
+          "Police services (traffic fines, driving licence application, driver's license registration, driving licence renewal, motor vehicle inspection, etc.)",
+          "Immigration services (Visa, Laissez-Passer, Alien Identity Card, Citizenship registration, Work and Residence permits, etc.)"]
+      }
+    },
+    "banking": {
+      "title": "Banking",
+      "description": "Discover our tailor-made solutions for the banking and financial sector.",
+      "more": {
+        "titleH1": "Our Banking Products",
+        "description": [
+          {
+            "title": "USSD Mobile Banking:",
+            "description": "Provides access to banking services on mobile phone."
+          },
+          {
+            "title": "Clearing and payment solution:",
+            "description": "Enables exchange of interbank transactions through central clearing house (Cheque Truncation and Automated Transfer System)."
+          },
+          {
+            "title": "Android Based Agency Banking:",
+            "description": "Extends branch services to customers through bank agents."
+          },
+          {
+            "title": "Micro-Lending Platform:",
+            "description": "Automated micro-loans and salary advance platform."
+          },
+          {
+            "title": "ATM Bridge system:",
+            "description": "Facilitates communication between the core banking system and the switch using ISO8583 message standards."
+          },
+          {
+            "title": "Online Internet banking:",
+            "description": "This is an online platform for customers to perform real time transactions on their accounts."
+          },
+          {
+            "title": "E-Wallet Integration:",
+            "description": "Integration to different Mobile Operators E-Wallets."
+          },
+          {
+            "title": "E-statement:",
+            "description": "This is an automated generation of customer account statements."
+          },
+          {
+            "title": "Email & SMS notification:",
+            "description": "This system enables the bank to send customized SMS and email notification to clients automatically as the transactions occur."
+          },
+          {
+            "title": "Core Banking Migration Consultancy:",
+            "description": "We offer Migration Consultancy or we can assist in preparing the Request For Proposal Document."
+          },
+          {
+            "title": "Salary Processing System:",
+            "description": "To process salary payments in bulk."
+          },
+          {
+            "title": "Tax Payment Interface:",
+            "description": "To interface the Revenue Authority System with payment collection systems."
+          },
+          {
+            "title": "Reconciliation System:",
+            "description": "To reconcile Ledger System with third party systems."
+          },
+          {
+            "title": "Retail Micro Core Banking Platform:",
+            "description": "This system enables the microfinances to manage its retail current and loan accounts."
+          }
+        ]
+        
+      }
+    },
+    "filing": {
+      "title": "E-Filing",
+      "description": "For private and public institutions, we offer a scanning and document management software called Search express",
+      "more": {
+        "titleH6": "You can:",
+        "description": ["store your documents in a secure and controlled way", "save time when searching for files", "access files remotely", "protect the environment", "save space by freeing up archive rooms"]
+      }
+    }
+  },
+  "tools": {
+    "toolsTitle": "Our Software Development Tools"
+  },
+  "contactUs": {
+    "contactUsTitle": "Get in touch",
+    "name": {
+      "label": "Name",
+      "placeholder": "Write name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Write email"
+    },
+    "title": {
+      "label": "Title",
+      "placeholder": "Write title"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Write message"
+    }
+  },
+  "moreBtn": "READ MORE",
+  "sendBtn": "Send message",
+  "footerDesciption": "Created to improve your organizational, social and economic performance, Applix adapts to your working environment.",
+  "footerCol1Title": "Location",
+  "footerCol2Title": "Email & Phone",
+  "footerCol3Title": "Social media"
+}

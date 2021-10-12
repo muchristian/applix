@@ -1,0 +1,85 @@
+/*Breadcrumb*/
+.hk-breadcrumb {
+	.breadcrumb {
+		border-bottom: 1px solid;
+		border-radius: 0;
+		padding: 12px 15px;
+		margin-bottom: 2rem;
+		border-color: rgba(50, 65, 72, 0.05);
+		.breadcrumb-item {
+			font-size: 14px;
+		}
+	}
+	.breadcrumb.breadcrumb-light {
+		background: #fff;
+		.breadcrumb-item {
+			>a {
+				color: rgba(50, 65, 72, 0.5);
+				&:hover {
+					color: rgba(50, 65, 72, 0.7);
+				}
+				&:focus {
+					color: rgba(50, 65, 72, 0.7);
+				}
+			}
+			+ {
+				.breadcrumb-item {
+					&:before {
+						color: rgba(50, 65, 72, 0.2);
+					}
+				}
+			}
+		}
+		.breadcrumb-item.active {
+			color: rgba(50, 65, 72, 0.8);
+		}
+	}
+	.breadcrumb.breadcrumb-dark {
+		background: #324148;
+		.breadcrumb-item {
+			>a {
+				color: rgba(255, 255, 255, 0.5);
+				&:hover {
+					color: rgba(255, 255, 255, 0.7);
+				}
+				&:focus {
+					color: rgba(255, 255, 255, 0.7);
+				}
+			}
+			+ {
+				.breadcrumb-item {
+					&:before {
+						color: rgba(255, 255, 255, 0.2);
+					}
+				}
+			}
+		}
+		.breadcrumb-item.active {
+			color: rgba(255, 255, 255, 0.8);
+		}
+	}
+	.breadcrumb-item {
+		+ {
+			.breadcrumb-item {
+				padding-left: .3rem;
+				&:before {
+					font-family: "dripicons-v2" !important;
+					content: "V";
+					font-style: normal !important;
+					font-weight: normal !important;
+					font-variant: normal !important;
+					text-transform: none !important;
+					speak: none;
+					line-height: 1;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					font-size: 11px;
+					padding-right: .3rem;
+					position: relative;
+					top: 1px;
+					color: rgba(193, 198, 200, 0.8);
+				}
+			}
+		}
+	}
+}
