@@ -80,7 +80,7 @@ app.get('/banking', (req, res) => {
   res.render('banking-service', req.info)
 })
 
-const port = 8000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
