@@ -84,14 +84,68 @@
     },
     "government": {
       "title": "Online administration",
-      "subTitle": "This platform will allow citizens to apply online for public services such as :",
-      "description": ["Online company registration", "E-licencing", "E-government", "E-procurement"],
+      "subTitle": "With the experience of the Covid-19 pandemic, we have all understood that it is imperative that both public and private services are accessible online and to all citizens.", 
       "more": {
-        "subText": "This platform will allow citizens to apply online for public services such as :",
-        "description": ["Local government services (birth certificate, marriage certificate, death certificate, nationality certificate, divorce certificate, criminal record certificate, etc.)",
-          "Land-related services (land registration, land transfer, land transfer, change of land use, payment service, etc.)",
-          "Police services (traffic fines, driving licence application, driver's license registration, driving licence renewal, motor vehicle inspection, etc.)",
-          "Immigration services (Visa, Laissez-Passer, Alien Identity Card, Citizenship registration, Work and Residence permits, etc.)"]
+        "title1H1": "Digital System for Company Registration and Investment Promotion",
+        "subText1": "« Register your company in a few clicks »",
+        "description1": "With our application, entrepreneurs can set up a company, association or foundation completely digitally (online) by pre-encoding the main elements required.",
+        "procedures": {
+          "title": "Our simplified procedure :",
+          "description": [
+            "Access the registration system via mobile phone, computer or tablet (anywhere and anytime)",
+"Fill in your business registration details",
+"Pay online if there is a fee for registration",
+"Get your virtual business registration certificate",
+"Approval of your business registration by a competent authority"
+          ]
+        },
+        "title2H1": "The digital procurement system",
+        "subText2": "The digitalisation of public procurement is the possibility for service providers to conclude public contracts via an online platform.",
+        "procedures1": {
+          "title": "Our simplified procedure",
+          "description": [
+            "The government launches a call for tender via a platform",
+"Suppliers submit their bids online", 
+"Evaluation of tenders by the competent authority is done online",
+"Contracts are signed"
+          ]
+        },
+        "title3H1": "License Management System for regulation bodies",
+        "subText3": "Our platform is designed to provide online services to improve the delivery of services to citizens and regulatory businesses in key sectors, such as :",
+        "description3": [
+          "transport and tele-communication", 
+          "postal services, ICT, water and sanitation",
+          "nuclear & radiation, electricity, gas and oil", 
+          "e-waste management, etc."           
+        ],
+        "benefits": {
+          "title": "The benefits",
+          "description": [
+            "Automate the time-consuming process of license renewal applications", 
+            "Simplify manual approvals of long-haul workflows",
+            "Automate regulatory fee calculations and collections."            
+          ]
+        },
+        "title4H1": "E-Gov Solutions",
+        "subText4": "This platform will allow citizens to apply online for public services such as :",
+        "description4": [
+          {
+            "title": "Local government services",
+            "description":"(birth certificate, marriage certificate, death certificate, nationality certificate, divorce certificate, criminal record certificate, etc.)"
+          },
+          {
+            "title": "Land-related services",
+            "description":"(land registration, land transfer, land transfer, change of land use, payment service, etc.)"
+          },
+          {
+            "title": "Police services",
+            "description":"(amendes routières, demande de permis de conduire, inscription à l’examen de conduite, renouvellement du permis de conduire, inspection des véhicules automobiles, etc.)"
+          },
+          {
+            "title": "Immigration services",
+            "description":"(Visa, Laissez-Passer, Alien Identity Card, Citizenship registration, Work and Residence permits, etc.)"
+          }
+        ]
       }
     },
     "banking": {

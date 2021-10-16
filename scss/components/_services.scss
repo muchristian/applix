@@ -33,7 +33,7 @@
         li {
             line-height: 32px;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             &::before {
                 content: "\f00c";
                 font-family: "Font Awesome 5 Free";
@@ -49,6 +49,7 @@
                 border-radius: 50%;
                 position: relative;
                 margin-right: 8px;
+                margin-top: 5px;
             }
         }
     }

@@ -76,12 +76,57 @@
     </header>
     <div class="hk-pg-wrapper government" style="min-height: 215px">
       <div class="container mb-40">
+        <h4 class="mt-40"><%= services.government.more.title1H1 %></h4>
+          <hr class="mb-16 mt-0 title-separator" />
         <h6 class="mt-40">
-          <%= services.government.more.subText %>
+          <%= services.government.more.subText1 %>
+        </h6>
+        <p class="mt-40">
+          <%= services.government.more.description1 %>
+        </p>
+        <h5 class="mt-24"><%= services.government.more.procedures.title %></h5>
+        <ul class="pt-8 pl-16 pr-16 ul-list">
+          <%  for (let des of services.government.more.procedures.description){ %>
+            <li><%= des %></li>
+            <% } %>
+        </ul>
+        <h4 class="mt-40"><%= services.government.more.title2H1 %></h4>
+          <hr class="mb-16 mt-0 title-separator" />
+        <h6 class="mt-40">
+          <%= services.government.more.subText2 %>
+        </h6>
+        <h5 class="mt-24"><%= services.government.more.procedures1.title %></h5>
+        <ul class="pt-8 pl-16 pr-16 ul-list">
+          <%  for (let des of services.government.more.procedures1.description){ %>
+            <li><%= des %></li>
+            <% } %>
+        </ul>
+        <h4 class="mt-40"><%= services.government.more.title3H1 %></h4>
+          <hr class="mb-16 mt-0 title-separator" />
+        <h6 class="mt-40">
+          <%= services.government.more.subText3 %>
         </h6>
         <ul class="pt-8 pl-16 pr-16 ul-list">
-          <%  for (let des of services.government.more.description){ %>
+          <%  for (let des of services.government.more.description3){ %>
             <li><%= des %></li>
+            <% } %>
+        </ul>
+        <h5 class="mt-24"><%= services.government.more.benefits.title %></h5>
+        <ul class="pt-8 pl-16 pr-16 ul-list">
+          <%  for (let des of services.government.more.benefits.description){ %>
+            <li><%= des %></li>
+            <% } %>
+        </ul>
+        <h4 class="mt-40"><%= services.government.more.title4H1 %></h4>
+          <hr class="mb-16 mt-0 title-separator" />
+        <h6 class="mt-40">
+          <%= services.government.more.subText4 %>
+        </h6>
+        <ul class="pt-8 pl-16 pr-16 ul-list">
+          <%  for (let des of services.government.more.description4){ %>
+            <li>
+              <b class="mr-8"><%= des.title %></b> <%= des.description %>
+            </li>
             <% } %>
         </ul>
       </div>

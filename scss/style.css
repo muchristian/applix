@@ -7204,9 +7204,9 @@ button.close {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .services .card .card-body .ul-list li::before {
@@ -7224,6 +7224,7 @@ button.close {
   border-radius: 50%;
   position: relative;
   margin-right: 8px;
+  margin-top: 5px;
 }
 
 .services .row .col-sm-12:nth-child(2) .col-md-12:nth-child(1) .card {
@@ -7326,9 +7327,9 @@ button.close {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .health .ul-list li::before, .government .ul-list li::before, .sport .ul-list li::before, .banking .ul-list li::before, .filing .ul-list li::before {
@@ -7346,6 +7347,7 @@ button.close {
   border-radius: 50%;
   position: relative;
   margin-right: 8px;
+  margin-top: 5px;
 }
 
 .contact-us .container-fluid form {

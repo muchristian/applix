@@ -92,12 +92,72 @@
       }
     },
     "government": {
-      "title": "Administration en ligne",
-      "subTitle": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
-      "description": ["Inscription en ligne de l'entreprise", "Permis en ligne", "E-gouvernement", "Système d'approvisionnement en ligne"],
+      "title": "Services d’administration en ligne",
+      "subTitle": "Avec l’expérience de la pandémie Covid-19, nous avons tous compris qu’il est impératif que les services publics que privés soient accessibles en ligne et à tous les citoyens.", 
       "more": {
-        "subText": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
-        "description": ["Services d’administration locale (certificat de naissance, certificat de mariage, certificat de décès, certificat de nationalité, certificat de divorce, certificat de casier judiciaire, etc.)", "Services liés aux terres (enregistrement foncier, transfert de terres, transfert de terres, changement d’utilisation des terres, service de paiement, etc.)", "Services de police (amendes routières, demande de permis de conduire, inscription à l’examen de conduite, renouvellement du permis de conduire, inspection des véhicules automobiles, etc.)", "Services gouvernementaux (enregistrement des entreprises, enregistrement des ONG, services notariés, etc.)", "Services de l’immigration (Visa, Laisser-Passer, Carte d’identité étrangers, enregistrement pour la citoyenneté, permis de travail et de résidence, etc.)"]
+        "title1H1": "Système numérique pour l'enregistrement des sociétés et la promotion des investissements",
+        "subText1": "« Enregistrez votre société en quelques clics »",
+        "description1": "Grâce à notre application, les entrepreneurs ont la possibilité de constituer une entreprise (société), une association ou une fondation de manière totalement digitale (en ligne) par un en pré-encodage des principaux éléments constitutifs exigés.",
+        "procedures": {
+          "title": "Notre procédure simplifiée",
+          "description": ["Accédez au système d’enregistrement par un téléphone portable, ordinateur ou une tablette (partout et à tout moment)",
+            "Remplissez les informations relatives à l’enregistrement de votre business",
+            "Payez en ligne en cas d’existence de frais applicables à l’enregistrement",
+            "Obtenez votre certificat virtuel d’enregistrement de votre business",
+            "Approbation de l’enregistrement de votre business par une autorité compétente"
+            ]
+        },
+        "title2H1": "Le système digital de passation des marchés publics",
+        "subText2": "La digitalisation des marchés publics consiste en la possibilité, pour les prestataires, de conclure des marchés publics par le biais d’une plateforme en ligne.",
+        "procedures1": {
+          "title": "Notre procédure simplifiée",
+          "description": [
+            "Le gouvernement lance un appel d’offre via une plateforme",
+"Soumission en ligne des fournisseurs",
+"L’évaluation des offres par l’autorité compétente se fait en ligne",
+"Signature des contrats"
+          ]
+        },
+        "title3H1": "Système de gestion des licences pour les organismes de réglementation",
+        "subText3": "Notre plateforme est conçue pour fournir des services en ligne visant à améliorer la prestation de services aux citoyens et aux entreprises de réglementation dans les secteurs clés, tels que :",
+        "description3": [
+          "le transport et la télécommunication", 
+"les services de la postes, ICT, eau et assainissement",
+"le nucléaire, l’électricité, le gaz et pétrole", 
+"la gestion des déchets électroniques, etc." 
+        ],
+        "benefits": {
+          "title": "Les avantages",
+          "description": [
+            "Automatiser le processus fastidieux des demandes de renouvellement de licence", 
+"Simplifier les approbations manuelles de flux de travail long-courriers",
+"Automatiser les calculs et les recouvrements des frais réglementaires."
+          ]
+        },
+        "title4H1": "Services d’administration publique en ligne (E-Gouvernement)",
+        "subText4": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
+        "description4": [
+          {
+            "title": "Services d’administration locale",
+            "description":"(certificat de naissance, certificat de mariage, certificat de décès, certificat de nationalité, certificat de divorce, certificat de casier judiciaire, etc.)"
+          },
+          {
+            "title": "Services liés aux terres",
+            "description":"(enregistrement foncier, transfert de terres, transfert de terres, changement d’utilisation des terres, service de paiement, etc.)"
+          },
+          {
+            "title": "Services de police",
+            "description":"(amendes routières, demande de permis de conduire, inscription à l’examen de conduite, renouvellement du permis de conduire, inspection des véhicules automobiles, etc.)"
+          },
+          {
+            "title": "Services gouvernementaux",
+            "description":"(enregistrement des entreprises, enregistrement des ONG, services notariés, etc.)"
+          },
+          {
+            "title": "Services de l’immigration",
+            "description":"(Visa, Laisser-Passer, Carte d’identité des étrangers, enregistrement pour la citoyenneté, permis de travail et de résidence, etc."
+          }
+        ]
       }
     },
     "banking": {
