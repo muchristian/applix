@@ -74,19 +74,20 @@
         <div class="col-md-12"></div>
       </div>
     </header>
-    <div class="hk-pg-wrapper" style="min-height: 215px">
+    <div class="hk-pg-wrapper banking" style="min-height: 215px">
       <div class="container mb-40">
-        <h3 class="mt-40"><%= services.banking.more.titleH1 %></h3>
-        <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+        <h4 class="mt-40"><%= services.banking.more.titleH1 %></h4>
+        <hr class="mb-16 mt-0 title-separator" />
+        <ul class="pt-8 pl-16 pr-16 ul-list">
           <%  for (let des of services.banking.more.description){ %>
             <li>
-              <b><%= des.title %></b> <%= des.description %>
+              <b class="mr-8"><%= des.title %></b> <%= des.description %>
             </li>
             <% } %>
         </ul>
       </div>
       <div class="hk-footer-wrap">
-        <div class="sub-footer pt-5 pb-5">
+        <div class="sub-footer pt-32 pb-32">
           <div class="container">
             <div class="row">
               <div class="col-md-12 d-flex align-items-center flex-column">

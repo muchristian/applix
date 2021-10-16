@@ -50,7 +50,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="#home" class="nav-link active"><%= navbar.home %></a>
+                <a href="#home" class="nav-link"><%= navbar.home %></a>
               </li>
               <li class="nav-item">
                 <a href="/about" class="nav-link"><%= navbar.about %></a>
@@ -104,18 +104,20 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="card pa-24 mb-32">
-                      <img src="heartbeat.png" alt="health"/>
+                      <div class="d-flex align-items-center">
+                        <img src="heartbeat.png" alt="health" class="mr-8"/>
+                        <h6 class="heading"><%= services.health.title %></h6>
+                      </div>
                       <div class="card-body pa-0 mt-16">
-                        <h6 class="mb-8 heading"><%= services.health.title %></h6>
                         <b><%= services.health.subTitle %></b>
-                        <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+                        <ul class="pt-8 pl-16 pr-16 ul-list">
                           <%  for (let des of services.health.description){ %>
                           <li><%= des %></li>
                           <% } %>
                         </ul>
                         <div class="row">
                           <div class="col-md-12 text-right">
-                            <a class="btn text-uppercase" href="/health">
+                            <a class="btn text-lowercase" href="/health">
                               <%= moreBtn %>
                             </a>
                           </div>
@@ -125,18 +127,20 @@
                   </div>
                   <div class="col-md-12">
                     <div class="card pa-24">
-                      <img src="running.png" alt="sport"/>
+                      <div class="d-flex align-items-center">
+                      <img src="running.png" alt="sport" class="mr-8"/>
+                      <h6 class="heading"><%= services.sport.title %></h6>
+                      </div>
                       <div class="card-body pa-0 mt-16">
-                        <h6 class="mb-8 heading"><%= services.sport.title %></h6>
                         <b><%= services.sport.subTitle %></b>
-                        <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+                        <ul class="pt-8 pl-16 pr-16 ul-list">
                           <%  for (let des of services.sport.description){ %>
                             <li><%= des %></li>
                             <% } %>
                         </ul>
                         <div class="row">
                           <div class="col-md-12 text-right">
-                            <a class="btn text-uppercase" href="/sport"><%= moreBtn %></a>
+                            <a class="btn text-lowercase" href="/sport"><%= moreBtn %></a>
                           </div>
                         </div>
                       </div>
@@ -148,14 +152,17 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="card pa-24 mb-32">
-                      <img src="communicate-1.png" alt="government"/>
+                      <div class="d-flex align-items-center">
+                        <img src="communicate-1.png" alt="government" class="mr-8"/>
+                        <h6 class="heading"><%= services.government.title %></h6>
+                      </div>
+                      
                       <div class="card-body pa-0 mt-16">
-                        <h6 class="mb-8 heading"><%= services.government.title %></h6>
                         <div class="description">
                           <p class="mb-0">
                             <%= services.government.subTitle %>
                           </p>
-                          <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+                          <ul class="pt-8 pl-16 pr-16 ul-list">
                             <%  for (let des of services.government.description){ %>
                               <li><%= des %></li>
                               <% } %>
@@ -163,7 +170,7 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 text-right">
-                            <a class="btn text-uppercase" href="/government"
+                            <a class="btn text-lowercase" href="/government"
                               ><%= moreBtn %></a
                             >
                           </div>
@@ -173,15 +180,18 @@
                   </div>
                   <div class="col-md-12">
                     <div class="card pa-24">
-                      <img src="stats.png" alt="banking"/>
+                      <div class="d-flex align-items-center">
+                        <img src="stats.png" alt="banking" class="mr-8"/>
+                        <h6 class="heading"><%= services.banking.title %></h6>
+                      </div>
+                      
                       <div class="card-body pa-0 mt-16">
-                        <h6 class="mb-8 heading"><%= services.banking.title %></h6>
                         <p class="description">
                           <%= services.banking.description %>
                         </p>
                         <div class="row">
                           <div class="col-md-12 text-right">
-                            <a class="btn text-uppercase" href="/banking"><%= moreBtn %></a>
+                            <a class="btn text-lowercase" href="/banking"><%= moreBtn %></a>
                           </div>
                         </div>
                       </div>
@@ -193,30 +203,17 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="card pa-24 mb-32">
-                      <img src="documents.png" alt="filing"/>
+                      <div class="d-flex align-items-center">
+                        <img src="documents.png" alt="filing" class="mr-8"/>
+                        <h6 class="heading"><%= services.filing.title %></h6>
+                      </div>
                       <div class="card-body pa-0 mt-16">
-                        <h6 class="mb-8 heading"><%= services.filing.title %></h6>
                         <p class="description">
                           <%= services.filing.description %>
                         </p>
-                        <!-- <b>Our offer :</b>
-                        <ul
-                          style="list-style: circle"
-                          class="pt-8 pl-16 pr-16"
-                        >
-                          <li>scanning,</li>
-                          <li>storage,</li>
-                          <li>management,</li>
-                          <li>
-                            tracking of documents & electronic images as well
-                            as paper information captured with our document
-                            scanners.
-                          </li>
-                        </ul> -->
-                        </p>
                         <div class="row">
                           <div class="col-md-12 text-right">
-                            <a class="btn text-uppercase" href="./filing"><%= moreBtn %></a>
+                            <a class="btn text-lowercase" href="./filing"><%= moreBtn %></a>
                           </div>
                         </div>
                       </div>
@@ -440,7 +437,7 @@
         </div>
       </div>
       <div class="hk-footer-wrap">
-        <div class="sub-footer pt-5 pb-5">
+        <div class="sub-footer pt-32 pb-32">
           <div class="container">
             <div class="row">
               <div class="col-md-12 d-flex align-items-center flex-column">

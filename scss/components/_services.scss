@@ -28,6 +28,30 @@
           border-radius: 0;
         }
       }
+
+      .ul-list {
+        li {
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+            &::before {
+                content: "\f00c";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                line-height: 20px;
+                text-align: center;
+                color: $primary;
+                background-color: $accent;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                padding: 1px 3px;
+                border-radius: 50%;
+                position: relative;
+                margin-right: 8px;
+            }
+        }
+    }
     }
   }
 
@@ -43,7 +67,9 @@
                 height: 56px;
                 filter: invert(100%);
               }
-              h6,
+              h6 {
+                color: #ff8c2d;
+              }
               p {
                 color: $primary;
               }

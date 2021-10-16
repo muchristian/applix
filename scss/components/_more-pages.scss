@@ -1,0 +1,37 @@
+.health, .government, .sport, .banking, .filing {
+    h4 {
+        font-weight: 700;
+    }
+    h5, h6 {
+        font-size: 600;
+    }
+    .title-separator {
+      width: 56px;
+      border: 2px solid;
+      color: $accent;
+      background-color: $accent;
+    }
+    .ul-list {
+        li {
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+            &::before {
+                content: "\f00c";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                line-height: 20px;
+                text-align: center;
+                color: $primary;
+                background-color: $accent;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                padding: 1px 3px;
+                border-radius: 50%;
+                position: relative;
+                margin-right: 8px;
+            }
+        }
+    }
+}

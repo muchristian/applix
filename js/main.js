@@ -5,6 +5,25 @@ $(document).ready(function(){
 	$(`select.lang > option[value='${Cookies.get("lang")}']`).attr("selected","selected");
 });
 
+let setActive = function () {
+
+  let url = window.location.pathname;
+  $(".navbar .navbar-nav a").each(function () {
+      if ($(this).attr("href") == `${url}` || $(this).attr("href") == '') {
+        
+          $(this).addClass("active");
+      }
+  })
+console.log(url)
+  if (url == '/') {
+      $(".navbar .navbar-nav a").eq(0).addClass("active");
+  }
+};
+
+$(function () {
+  setActive();
+});
+
 $(".navbar .navbar-nav a").on("click", function (e) {
   if (this.hash !== "") {
     e.preventDefault();

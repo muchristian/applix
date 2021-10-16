@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(../vendors/bootstrap/dist/css/bootstrap.min.css);
 @import url("https://use.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&family=Open+Sans&display=swap");
 @import url("animate.css");
 /****************************/
 /** Reset **/
@@ -27,18 +28,18 @@ strong {
 }
 
 body {
-  color: #5e7d8a;
+  color: #3e5660;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  font-family: "Inter", sans-serif;
+  font-family: 'Montserrat', serif;
   line-height: 1.5;
   background: #fff;
   overflow-x: hidden;
 }
 
 .main-font {
-  font-family: "Inter", sans-serif;
+  font-family: 'Montserrat', serif;
 }
 
 .jq-toast-wrap .jq-toast-single {
@@ -7113,6 +7114,7 @@ button.close {
   width: 40px;
   border: 2px solid;
   color: #fb7200;
+  background-color: #fb7200;
 }
 
 .features .card h6 {
@@ -7197,6 +7199,33 @@ button.close {
   border-radius: 0;
 }
 
+.services .card .card-body .ul-list li {
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .card .card-body .ul-list li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #fb7200;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 1px 3px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 8px;
+}
+
 .services .row .col-sm-12:nth-child(2) .col-md-12:nth-child(1) .card {
   background-color: #0b00ff;
 }
@@ -7208,7 +7237,10 @@ button.close {
           filter: invert(100%);
 }
 
-.services .row .col-sm-12:nth-child(2) .col-md-12:nth-child(1) .card h6,
+.services .row .col-sm-12:nth-child(2) .col-md-12:nth-child(1) .card h6 {
+  color: #ff8c2d;
+}
+
 .services .row .col-sm-12:nth-child(2) .col-md-12:nth-child(1) .card p {
   color: #fff;
 }
@@ -7274,23 +7306,46 @@ button.close {
   margin-right: 4px;
 }
 
-.blog-right-side .card {
-  border-color: #eaecec;
-  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.125);
-          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.125);
-}
-
-.blog-right-side .list-posts h4 {
+.health h4, .government h4, .sport h4, .banking h4, .filing h4 {
   font-weight: 700;
 }
 
-.blog-right-side .list-posts .media img {
-  width: 72px;
-  height: 72px;
+.health h5, .health h6, .government h5, .government h6, .sport h5, .sport h6, .banking h5, .banking h6, .filing h5, .filing h6 {
+  font-size: 600;
 }
 
-.blog-right-side .list-posts .media .media-body .short-text {
-  margin-bottom: 8px;
+.health .title-separator, .government .title-separator, .sport .title-separator, .banking .title-separator, .filing .title-separator {
+  width: 56px;
+  border: 2px solid;
+  color: #fb7200;
+  background-color: #fb7200;
+}
+
+.health .ul-list li, .government .ul-list li, .sport .ul-list li, .banking .ul-list li, .filing .ul-list li {
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.health .ul-list li::before, .government .ul-list li::before, .sport .ul-list li::before, .banking .ul-list li::before, .filing .ul-list li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #fb7200;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 1px 3px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 8px;
 }
 
 .contact-us .container-fluid form {

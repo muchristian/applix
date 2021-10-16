@@ -5,8 +5,8 @@
     "service": "Nos Solutions",
     "contactUs": "Contactez-nous"
   },
-  "homespan": "fait",
-  "homeH6": "vous êtes une entreprise, une collectivité ou un particulier et vous souhaitez ",
+  "homespan": "Etes",
+  "homeH6": "vous une entreprise, une collectivité ou un particulier et vous souhaitez ",
   "homeH1": "optimiser vos services ?",
   "aboutUs": {
     "aboutUsTitle": "A Propos de nous",
@@ -30,7 +30,7 @@
     "other": {
       "title": "Le client est roi",
       "subTitle": "Chez Applix",
-      "description": "nous partons du principe que. De ce fait, nous nous devons de lui être royal."
+      "description": "De ce fait, nous nous devons de lui être royal."
     }
   },
   "services": {
@@ -38,7 +38,7 @@
     "health": {
       "title": "Santé",
       "subTitle": "Dans les secteurs cliniques et médico-administratifs, nous offrons :",
-      "description": ["Système de santé mobile", "Système de gestion hospitalière"],
+      "description": ["Un système de santé mobile", "Un système de gestion hospitalière"],
       "more": {
         "title1H1": "Le Système de soins de santé mobile",
         "subText1": "Notre plateforme est conçue pour fournir des services de santé sécurisés et efficaces.",
@@ -94,7 +94,7 @@
     "government": {
       "title": "Administration en ligne",
       "subTitle": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
-      "description": ["Inscription en ligne de l'entreprise", "E-licence", "E-gouvernement", "E-procurement"],
+      "description": ["Inscription en ligne de l'entreprise", "Permis en ligne", "E-gouvernement", "Système d'approvisionnement en ligne"],
       "more": {
         "subText": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
         "description": ["Services d’administration locale (certificat de naissance, certificat de mariage, certificat de décès, certificat de nationalité, certificat de divorce, certificat de casier judiciaire, etc.)", "Services liés aux terres (enregistrement foncier, transfert de terres, transfert de terres, changement d’utilisation des terres, service de paiement, etc.)", "Services de police (amendes routières, demande de permis de conduire, inscription à l’examen de conduite, renouvellement du permis de conduire, inspection des véhicules automobiles, etc.)", "Services gouvernementaux (enregistrement des entreprises, enregistrement des ONG, services notariés, etc.)", "Services de l’immigration (Visa, Laisser-Passer, Carte d’identité étrangers, enregistrement pour la citoyenneté, permis de travail et de résidence, etc.)"]
@@ -200,7 +200,7 @@
   "moreBtn": "LIRE LA SUITE",
   "sendBtn": "Envoyer message",
   "footerDesciption": "Créé pour améliorer vos performances organisationnelles, sociales et économiques, Applix s’adapte à votre environnement.",
-  "footerCol1Title": "Emplacement",
+  "footerCol1Title": "Adresse",
   "footerCol2Title": "Courriel et téléphone",
-  "footerCol3Title": "Des médias sociaux"
+  "footerCol3Title": "Nous sommes aussi sur les médias sociaux"
 }

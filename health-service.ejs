@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/jpg" href="./img/favicon/favicon-32x32.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="favicon/favicon-32x32.png"/>
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <title>Applix</title>
@@ -74,37 +74,39 @@
         <div class="col-md-12"></div>
       </div>
     </header>
-    <div class="hk-pg-wrapper" style="min-height: 215px">
+    <div class="hk-pg-wrapper health" style="min-height: 215px">
       <div class="container mb-40">
-        <h3 class="mt-40"><%= services.health.more.title1H1 %></h3>
+        <h4 class="mt-40"><%= services.health.more.title1H1 %></h4>
+          <hr class="mb-16 mt-0 title-separator" />
         <p>
           <%= services.health.more.subText1 %>
         </p>
         <h5 class="mt-24"><%= services.health.more.benefits.title %></h5>
-        <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+        <ul class="pt-8 pl-16 pr-16 ul-list">
           <%  for (let des of services.health.more.benefits.description){ %>
             <li><%= des %></li>
             <% } %>
         </ul>
-        <h3 class="mt-40"><%= services.health.more.title2H1 %></h3>
+        <h4 class="mt-40"><%= services.health.more.title2H1 %></h4>
+        <hr class="mb-16 mt-0 title-separator" />
         <p>
           <%= services.health.more.subText2 %>
         </p>
         <h5 class="mt-24"><%= services.health.more.func.title %></h5>
-        <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+        <ul class="pt-8 pl-16 pr-16 ul-list">
           <%  for (let des of services.health.more.func.description){ %>
             <li><%= des %></li>
             <% } %>
         </ul>
         <h5 class="mt-24"><%= services.health.more.benefits1.title %></h5>
-        <ul style="list-style: circle" class="pt-8 pl-16 pr-16">
+        <ul class="pt-8 pl-16 pr-16 ul-list">
           <%  for (let des of services.health.more.benefits1.description){ %>
             <li><%= des %></li>
             <% } %>
         </ul>
       </div>
       <div class="hk-footer-wrap">
-        <div class="sub-footer pt-5 pb-5">
+        <div class="sub-footer pt-32 pb-32">
           <div class="container">
             <div class="row">
               <div class="col-md-12 d-flex align-items-center flex-column">

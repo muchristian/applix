@@ -2,6 +2,7 @@
 
 @import url(../vendors/bootstrap/dist/css/bootstrap.min.css);
 @import url("https://use.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&family=Open+Sans&display=swap');
 @import url("animate.css");
 @import "_colors.scss";
 @import "_reset.scss";
@@ -17,7 +18,7 @@
 @import "components/features";
 @import "components/services";
 @import "components/tools";
-@import "components/blog-page";
+@import "components/more-pages";
 @import "components/contact-us";
 @import "utilities/background";
 @import "utilities/border-colors";
