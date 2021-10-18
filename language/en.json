@@ -11,7 +11,7 @@
   "aboutUs": {
     "aboutUsTitle": "About Us",
     "aboutUs": {
-      "title": "About Us",
+      "title": "Our identity",
       "subTitle": "About Applix :",
       "description": "We have based our philosophy on successful partnership. We have brought together a number of experienced African and European partners specialising in new technologies with a long track record and a wide range of skills in private companies and public services."
     },
@@ -83,10 +83,10 @@
       }
     },
     "government": {
-      "title": "Online administration",
+      "title": "E-Government",
       "subTitle": "Our platform will allow citizens to apply online for public services such as :", 
       "description": [
-        "Digital System for Company Registration and Investment Propotion",
+        "Digital System for Company Registration and Investment Promotion",
 "Digital Procurement System",
 "License Management System for Regulation Bodies",
 "E-Citizens"
@@ -119,10 +119,10 @@
         "title3H1": "License Management System for regulation bodies",
         "subText3": "Our platform is designed to provide online services to improve the delivery of services to citizens and regulatory businesses in key sectors, such as :",
         "description3": [
-          "transport and tele-communication", 
-          "postal services, ICT, water and sanitation",
-          "nuclear & radiation, electricity, gas and oil", 
-          "e-waste management, etc."           
+          "Transport and tele-communication", 
+          "Postal services, ICT, water and sanitation",
+          "Nuclear & radiation, electricity, gas and oil", 
+          "E-waste management, etc."           
         ],
         "benefits": {
           "title": "The benefits",
@@ -145,7 +145,7 @@
           },
           {
             "title": "Police services",
-            "description":"(amendes routières, demande de permis de conduire, inscription à l’examen de conduite, renouvellement du permis de conduire, inspection des véhicules automobiles, etc.)"
+            "description":"(traffic fines, driving licence application, driver's license registration, driving licence renewal, motor vehicle inspection, etc.)"
           },
           {
             "title": "Immigration services",
@@ -226,9 +226,9 @@
       "more": {
         "subText1": "Scanning and document management software",
         "title1H6": "Our offer :",
-        "description1": ["scanning", "storage", "management", "tracking of documents & electronic images as well as paper information captured with our document scanners."],
+        "description1": ["Scanning", "Storage", "Management", "Tracking of documents & electronic images as well as paper information captured with our document scanners."],
         "title2H6": "You can:",
-        "description2": ["store your documents in a secure and controlled way", "save time when searching for files", "access files remotely", "protect the environment", "save space by freeing up archive rooms"],
+        "description2": ["Store your documents in a secure and controlled way", "Save time when searching for files", "Access files remotely", "Protect the environment", "Save space by freeing up archive rooms"],
         "subText2": "« Take advantage of our professional scanners with a capacity of 100 copies per minute. »"
       }
     }

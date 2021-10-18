@@ -318,12 +318,6 @@ dt {
   }
 }
 
-@media (max-width: 767px) {
-  .hk-pg-wrapper {
-    padding-bottom: 85px;
-  }
-}
-
 @media (max-width: 575px) {
   .hk-sec-wrapper {
     padding-left: 1rem;
@@ -7194,6 +7188,7 @@ button.close {
 
 .services .card h6 {
   color: #0b00ff;
+  font-weight: 700;
 }
 
 .services .card .card-body .row p {
@@ -7205,6 +7200,8 @@ button.close {
   background-color: #0b00ff;
   border-color: #0b00ff;
   border-radius: 0;
+  font-size: 14px;
+  border-radius: 8px;
 }
 
 .services .card .card-body .ul-list li {
@@ -7245,6 +7242,7 @@ button.close {
 
 .services .row .col-sm-12:nth-child(2) .col-md-12:nth-child(1) .card h6 {
   color: #ff8c2d;
+  font-weight: 700;
 }
 
 .services .row .col-sm-12:nth-child(2) .col-md-12:nth-child(1) .card p {
@@ -7363,15 +7361,26 @@ button.close {
 .contact-us .container-fluid form h2 {
   width: 70%;
   text-align: center;
-  border-bottom: 1px solid #dbdbdb;
-  line-height: 0.1em;
   color: #0b00ff;
   font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact-us .container-fluid form h2 span {
   background: #ffebda;
   padding: 0 8px;
+  z-index: 5;
+}
+
+.contact-us .container-fluid form h2 hr {
+  position: absolute;
+  width: inherit;
+  z-index: 2;
 }
 
 .contact-us .container-fluid form .form-group label {
@@ -7384,6 +7393,12 @@ button.close {
   color: #fff;
   border-color: #0b00ff;
   border-radius: 0;
+}
+
+@media (max-width: 575px) {
+  .contact-us .container-fluid .form h2 span {
+    width: 40%;
+  }
 }
 
 /*Background Colors*/
@@ -17062,12 +17077,10 @@ header .hk-navbar.hk-navbar-alt .navbar-toggler {
 
 .form-control.transparent-input {
   background: transparent;
-  border: none;
 }
 
 .form-control.transparent-input:focus {
   background: transparent;
-  border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }

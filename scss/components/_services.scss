@@ -15,6 +15,7 @@
     }
     h6 {
       color: $secondary;
+      font-weight: 700;
     }
     .card-body {
       .row {
@@ -26,6 +27,8 @@
           background-color: $secondary;
           border-color: $secondary;
           border-radius: 0;
+          font-size: 14px;
+          border-radius: 8px;
         }
       }
 
@@ -69,6 +72,7 @@
               }
               h6 {
                 color: #ff8c2d;
+                font-weight: 700;
               }
               p {
                 color: $primary;

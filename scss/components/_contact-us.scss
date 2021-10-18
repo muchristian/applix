@@ -5,15 +5,20 @@
       h2 {
         width: 70%;
         text-align: center;
-        border-bottom: 1px solid #dbdbdb;
-        line-height: 0.1em;
         color: $secondary;
         font-weight: 700;
-      }
-
-      h2 span {
-        background: #ffebda;
-        padding: 0 8px;
+        align-items: center;
+        justify-content: center;
+        span {
+          background: #ffebda;
+          padding: 0 8px;
+          z-index: 5;
+        }
+        hr {
+          position: absolute;
+          width: inherit;
+          z-index: 2;
+        }
       }
 
       .form-group label {
@@ -26,6 +31,20 @@
         color: $primary;
         border-color: $secondary;
         border-radius: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-us {
+    .container-fluid {
+      .form {
+        h2 {
+          span {
+            width: 40%;
+          }
+        }
       }
     }
   }

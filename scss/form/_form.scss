@@ -55,10 +55,8 @@
 }
 .form-control.transparent-input {
   background: transparent;
-  border: none;
   &:focus {
     background: transparent;
-    border: none;
     box-shadow: none;
   }
 }

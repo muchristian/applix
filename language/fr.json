@@ -11,7 +11,7 @@
   "aboutUs": {
     "aboutUsTitle": "A Propos de nous",
     "aboutUs": {
-      "title": "A Propos de nous",
+      "title": "Notre Identité",
       "subTitle": "A propos d’Applix :",
       "description": "Nous avons fondé notre philosophie sur la réussite du partenariat. Nous avons réuni plusieurs partenaires Africains et Européens, expérimentés et spécialisés dans les nouvelles technologies avec une longue expérience et des compétences très variées dans les entreprises privées et les services publics."
     },
@@ -61,10 +61,10 @@
         "benefits1": {
           "title": "Les Avantages de notre système",
           "description": [
-            "une meilleure prise en charge du patient par un dossier unique partagé",
-"une intégration des éléments cliniques, opérationnels et financiers",
-"optimisation du flux de travail et la réduction des dépenses opérationnelles.",
-"outil d’aide à la décision pour les administrateurs et aux professionnels de santé"
+            "Une meilleure prise en charge du patient par un dossier unique partagé",
+"Une intégration des éléments cliniques, opérationnels et financiers",
+"Optimisation du flux de travail et la réduction des dépenses opérationnelles.",
+"Outil d’aide à la décision pour les administrateurs et aux professionnels de santé"
           ]
         }
       }
@@ -92,7 +92,7 @@
       }
     },
     "government": {
-      "title": "Services d’administration en ligne",
+      "title": "E-Gouvernement",
       "subTitle": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :", 
       "description": [
         "Système numérique pour l'enregistrement des sociétés et la promotion des investissements",
@@ -127,10 +127,10 @@
         "title3H1": "Système de gestion des licences pour les organismes de réglementation",
         "subText3": "Notre plateforme est conçue pour fournir des services en ligne visant à améliorer la prestation de services aux citoyens et aux entreprises de réglementation dans les secteurs clés, tels que :",
         "description3": [
-          "le transport et la télécommunication", 
-"les services de la postes, ICT, eau et assainissement",
-"le nucléaire, l’électricité, le gaz et pétrole", 
-"la gestion des déchets électroniques, etc." 
+          "Le transport et la télécommunication", 
+"Les services de la postes, ICT, eau et assainissement",
+"Le nucléaire, l’électricité, le gaz et pétrole", 
+"La gestion des déchets électroniques, etc." 
         ],
         "benefits": {
           "title": "Les avantages",
@@ -238,9 +238,9 @@
       "more": {
         "subText1": "Logiciel de numérisation et de gestion de documents",
         "title1H6": "Notre offre :",
-        "description1": ["la numérisation", "le stockage","la gestion", "le suivi des documents & les images électroniques mais aussi les informations sur papier capturées à l’aide de nos scanners de documents."],
+        "description1": ["La numérisation", "Le stockage","La gestion", "Le suivi des documents & les images électroniques mais aussi les informations sur papier capturées à l’aide de nos scanners de documents."],
         "title2H6": "Vous pouvez :",
-        "description2": ["conserver vos documents de façon sécurisée et contrôlée", "gagner du temps quand vous chercher un dossiers","acceder aux dossiers à distance", "protéger l’environnement", "gagner de l’espace en libérant les salles d’archives"],
+        "description2": ["Conserver vos documents de façon sécurisée et contrôlée", "Gagner du temps quand vous chercher un dossiers","Acceder aux dossiers à distance", "Protéger l’environnement", "Gagner de l’espace en libérant les salles d’archives"],
         "subText2": "« Profitez nos scanners professionnels d’une capacité de 100 copies par minute. »"
       }
     }
@@ -271,8 +271,8 @@
   "sendBtn": "Envoyer un message",
   "footerDesciption": "Créé pour améliorer vos performances organisationnelles, sociales et économiques, Applix s’adapte à votre environnement.",
   "footerCol1Title": "Adresse",
-  "footerCol1Text1": "M-Peace Plaza, aile A, 6e étage, KN 48 ST",
-  "footerCol1Text2": "Case postale : 71 Kigali-Rwanda",
+  "footerCol1Text1": "M-Peace Plaza, aile A, 6 ème étage, KN 48 ST",
+  "footerCol1Text2": "Boîte Postale :71 Kigali-Rwanda",
   "footerCol2Title": "Courriel et téléphone",
   "footerCol3Title": "Nous sommes aussi sur les médias sociaux"
 }
