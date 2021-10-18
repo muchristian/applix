@@ -38,7 +38,7 @@
     "health": {
       "title": "Santé Numérique (e-santé)",
       "subTitle": "Dans les secteurs cliniques et médico-administratifs, nous offrons :",
-      "description": ["Un système de santé mobile", "Un système d'information et de gestion hospitalière"],
+      "description": ["un système de santé mobile", "un système d'information et de gestion hospitalière"],
       "more": {
         "title1H1": "Le Système de soins de santé mobile",
         "subText1": "Notre plateforme est conçue pour fournir des services de santé sécurisés et efficaces.",
@@ -268,7 +268,7 @@
     }
   },
   "moreBtn": "LIRE LA SUITE",
-  "sendBtn": "Envoyer message",
+  "sendBtn": "Envoyer un message",
   "footerDesciption": "Créé pour améliorer vos performances organisationnelles, sociales et économiques, Applix s’adapte à votre environnement.",
   "footerCol1Title": "Adresse",
   "footerCol1Text1": "M-Peace Plaza, aile A, 6e étage, KN 48 ST",
