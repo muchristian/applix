@@ -13,8 +13,14 @@
     h6 {
       color: $secondary;
     }
+
+    p {
+      line-height: 32px;
+    }
+
     ul {
       li {
+        line-height: 32px;
         &::before {
           content: "\f00c";
           font-family: "Font Awesome 5 Free";

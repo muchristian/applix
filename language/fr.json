@@ -36,18 +36,18 @@
   "services": {
     "serviceTitle": "Nos Solutions",
     "health": {
-      "title": "Santé",
+      "title": "Santé Numérique (e-santé)",
       "subTitle": "Dans les secteurs cliniques et médico-administratifs, nous offrons :",
-      "description": ["Un système de santé mobile", "Un système de gestion hospitalière"],
+      "description": ["Un système de santé mobile", "Un système d'information et de gestion hospitalière"],
       "more": {
         "title1H1": "Le Système de soins de santé mobile",
         "subText1": "Notre plateforme est conçue pour fournir des services de santé sécurisés et efficaces.",
         "benefits": {
           "title": "Les avantages",
-          "description":["réduction des barrières géographiques grâce à une collecte et un partage optimisé des données entre les patients ou l’entourage et les professionnels de santé.", "collecter, visualiser et partager de manière permanente des informations relatives à la santé et au bien-être pour favoriser l’autonomie chez un patient et assurer une meilleure prise en charge."]
+          "description":["Réduction des barrières géographiques grâce à une collecte et un partage optimisé des données entre les patients ou l’entourage et les professionnels de santé.", "Collecter, visualiser et partager de manière permanente des informations relatives à la santé et au bien-être pour favoriser l’autonomie chez un patient et assurer une meilleure prise en charge."]
         },
         "title2H1": "Le Système information et de gestion hospitalière (SIGH)",
-        "subText2": "Notre logiciel de gestion hospitalière est conçu pour permettre les échanges d&#39;informations entre médecins, les hôpitaux ou les réseaux de santé.",
+        "subText2": "Notre logiciel de gestion hospitalière est conçu pour permettre les échanges informations entre médecins, les hôpitaux ou les réseaux de santé.",
         "func": {
           "title": "FONCTIONNALITÉS",
           "description": ["Planification des rendez-vous et gestion administratif",
@@ -74,7 +74,7 @@
       "subTitle": "Nos produits :",
       "description": ["un traceur GPS professionnel de marque Sonda Sports", "un gilet porteur de marque Sonda Sports", "un moniteur de fréquence cardiaque de marque Polar", "une plateforme d’analyse pour les entraineurs et les joueurs"],
       "more": {
-        "subText": "Sonda Sports GPS Tracker est un outil professionnel pour le suivi des performances des athlètes. L&#39;appareil est équipé d&#39;un module GPS, d&#39;un accéléromètre, d&#39;un gyroscope et d&#39;un magnétomètre. Il vous permet de suivre les mouvements de chaque joueur et de nombreuses mesures clés à chaque étape de l&#39;entraînement.",
+        "subText": "Sonda Sports GPS Tracker est un outil professionnel pour le suivi des performances des athlètes. Lappareil est équipé un module GPS, un accéléromètre, un gyroscope et un magnétomètre. Il vous permet de suivre les mouvements de chaque joueur et de nombreuses mesures clés à chaque étape de lentraînement.",
         "performance": {
           "title": "Notre outil de gestion de la performance, est conçu pour :",
           "description": ["L’analyse et la surveillance de la condition physique",
@@ -84,16 +84,22 @@
         },
         "tools": {
           "title": "Avec nos outils, vous pouvez :",
-          "description": ["Augmenter les performances en améliorant la vitesse et l&#39;endurance des joueurs",
+          "description": ["Augmenter les performances en améliorant la vitesse et lendurance des joueurs",
             "Sélectionner la meilleure équipe par une bonne planification et une prise de décisions basées sur des données fiables",
-            "Protéger les joueurs grâce à la gestion de la charge d&#39;entraînement",
+            "Protéger les joueurs grâce à la gestion de la charge entraînement",
             "Enfin, développer votre équipe et soyez promu dans les classements"]
         }
       }
     },
     "government": {
       "title": "Services d’administration en ligne",
-      "subTitle": "Avec l’expérience de la pandémie Covid-19, nous avons tous compris qu’il est impératif que les services publics que privés soient accessibles en ligne et à tous les citoyens.", 
+      "subTitle": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :", 
+      "description": [
+        "Système numérique pour l'enregistrement des sociétés et la promotion des investissements",
+        "Le système digital de passation des marchés publics",
+        "Système de gestion des licences pour les organismes de réglementation",
+        "E-Citoyens"
+      ],
       "more": {
         "title1H1": "Système numérique pour l'enregistrement des sociétés et la promotion des investissements",
         "subText1": "« Enregistrez votre société en quelques clics »",
@@ -134,7 +140,7 @@
 "Automatiser les calculs et les recouvrements des frais réglementaires."
           ]
         },
-        "title4H1": "Services d’administration publique en ligne (E-Gouvernement)",
+        "title4H1": "E-Citoyens",
         "subText4": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :",
         "description4": [
           {
@@ -230,8 +236,12 @@
       "title": "Archivage électronique",
       "description": "Pour les institutions privées et publiques, nous proposons un logiciel de numérisation et de gestion de documents appelé Search express",
       "more": {
-        "titleH6": "Vous pouvez :",
-        "description": ["conserver vos documents de façon sécurisée et contrôlée", "gagner du temps quand vous chercher un dossiers","acceder aux dossiers à distance", "protéger l’environnement", "gagner de l’espace en libérant les salles d’archives"]
+        "subText1": "Logiciel de numérisation et de gestion de documents",
+        "title1H6": "Notre offre :",
+        "description1": ["la numérisation", "le stockage","la gestion", "le suivi des documents & les images électroniques mais aussi les informations sur papier capturées à l’aide de nos scanners de documents."],
+        "title2H6": "Vous pouvez :",
+        "description2": ["conserver vos documents de façon sécurisée et contrôlée", "gagner du temps quand vous chercher un dossiers","acceder aux dossiers à distance", "protéger l’environnement", "gagner de l’espace en libérant les salles d’archives"],
+        "subText2": "« Profitez nos scanners professionnels d’une capacité de 100 copies par minute. »"
       }
     }
   },
@@ -261,6 +271,8 @@
   "sendBtn": "Envoyer message",
   "footerDesciption": "Créé pour améliorer vos performances organisationnelles, sociales et économiques, Applix s’adapte à votre environnement.",
   "footerCol1Title": "Adresse",
+  "footerCol1Text1": "M-Peace Plaza, aile A, 6e étage, KN 48 ST",
+  "footerCol1Text2": "Case postale : 71 Kigali-Rwanda",
   "footerCol2Title": "Courriel et téléphone",
   "footerCol3Title": "Nous sommes aussi sur les médias sociaux"
 }

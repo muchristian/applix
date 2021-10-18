@@ -32,7 +32,6 @@
       .ul-list {
         li {
             line-height: 32px;
-            display: flex;
             align-items: flex-start;
             &::before {
                 content: "\f00c";

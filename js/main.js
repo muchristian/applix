@@ -46,7 +46,7 @@ $(".navbar .navbar-nav a").click(function() {
 
 $('select.lang').on('change', function() {
   if($(this).val() !== null) {
-    fetch(`https://applixweb.herokuapp.com/${$(this).val()}`, {
+    fetch(`http://applixweb.herokuapp.com/${$(this).val()}`, {
       method: 'GET'
     }).then(res => {
       return res.json()

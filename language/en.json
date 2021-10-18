@@ -36,11 +36,11 @@
   "services": {
     "serviceTitle": "Our Solutions",
     "health": {
-      "title": "Health",
+      "title": "Digital Healthcare",
       "subTitle": "In the clinical and medical administrative sectors, we offer:",
-      "description": ["Mobile healthcare system", "Hospital management system"],
+      "description": ["Mobile healthcare system", "Hospital Management Information System"],
       "more": {
-        "title1H1": "The Mobile Health Care System",
+        "title1H1": "The Mobile Healthcare System",
         "subText1": "Our platform is designed to provide safe and efficient healthcare services.",
         "benefits": {
           "title": "The benefits include",
@@ -54,7 +54,7 @@
         },
         "benefits1": {
           "title": "Benefits of our system",
-          "description": ["better patient management through a single shared record", "integration of clinical, operational and financial elements", "optimization of workflow and reduction of operational expenses", "decision support tool for administrators and healthcare professionals"]
+          "description": ["Better patient management through a single shared record", "Integration of clinical, operational and financial elements", "Optimization of workflow and reduction of operational expenses", "Decision support tool for administrators and healthcare professionals"]
         }
       }
     },
@@ -84,7 +84,13 @@
     },
     "government": {
       "title": "Online administration",
-      "subTitle": "With the experience of the Covid-19 pandemic, we have all understood that it is imperative that both public and private services are accessible online and to all citizens.", 
+      "subTitle": "Our platform will allow citizens to apply online for public services such as :", 
+      "description": [
+        "Digital System for Company Registration and Investment Propotion",
+"Digital Procurement System",
+"License Management System for Regulation Bodies",
+"E-Citizens"
+      ],
       "more": {
         "title1H1": "Digital System for Company Registration and Investment Promotion",
         "subText1": "« Register your company in a few clicks »",
@@ -126,7 +132,7 @@
             "Automate regulatory fee calculations and collections."            
           ]
         },
-        "title4H1": "E-Gov Solutions",
+        "title4H1": "E-Citizens",
         "subText4": "This platform will allow citizens to apply online for public services such as :",
         "description4": [
           {
@@ -216,10 +222,14 @@
     },
     "filing": {
       "title": "E-Filing",
-      "description": "For private and public institutions, we offer a scanning and document management software called Search express",
+      "description": "We offer a scanning and document management software called Search express",
       "more": {
-        "titleH6": "You can:",
-        "description": ["store your documents in a secure and controlled way", "save time when searching for files", "access files remotely", "protect the environment", "save space by freeing up archive rooms"]
+        "subText1": "Scanning and document management software",
+        "title1H6": "Our offer :",
+        "description1": ["scanning", "storage", "management", "tracking of documents & electronic images as well as paper information captured with our document scanners."],
+        "title2H6": "You can:",
+        "description2": ["store your documents in a secure and controlled way", "save time when searching for files", "access files remotely", "protect the environment", "save space by freeing up archive rooms"],
+        "subText2": "« Take advantage of our professional scanners with a capacity of 100 copies per minute. »"
       }
     }
   },
@@ -249,6 +259,8 @@
   "sendBtn": "Send message",
   "footerDesciption": "Created to improve your organizational, social and economic performance, Applix adapts to your working environment.",
   "footerCol1Title": "Location",
+  "footerCol1Text1": "M-Peace Plaza, Wing A, 6th Floor , KN 48 ST",
+  "footerCol1Text2": "P.O Box: 71 Kigali-Rwanda",
   "footerCol2Title": "Email & Phone",
   "footerCol3Title": "Social media"
 }

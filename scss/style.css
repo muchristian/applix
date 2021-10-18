@@ -7121,6 +7121,14 @@ button.close {
   color: #0b00ff;
 }
 
+.features .card p {
+  line-height: 32px;
+}
+
+.features .card ul li {
+  line-height: 32px;
+}
+
 .features .card ul li::before {
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
@@ -7201,9 +7209,6 @@ button.close {
 
 .services .card .card-body .ul-list li {
   line-height: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -7324,9 +7329,6 @@ button.close {
 
 .health .ul-list li, .government .ul-list li, .sport .ul-list li, .banking .ul-list li, .filing .ul-list li {
   line-height: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -7348,6 +7350,10 @@ button.close {
   position: relative;
   margin-right: 8px;
   margin-top: 5px;
+}
+
+.health .ol-list li, .government .ol-list li, .sport .ol-list li, .banking .ol-list li, .filing .ol-list li {
+  line-height: 32px;
 }
 
 .contact-us .container-fluid form {

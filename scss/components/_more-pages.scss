@@ -14,7 +14,6 @@
     .ul-list {
         li {
             line-height: 32px;
-            display: flex;
             align-items: flex-start;
             &::before {
                 content: "\f00c";
@@ -33,6 +32,11 @@
                 margin-right: 8px;
                 margin-top: 5px;
             }
+        }
+    }
+    .ol-list {
+        li {
+            line-height: 32px;
         }
     }
 }
