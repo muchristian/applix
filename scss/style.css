@@ -7137,23 +7137,23 @@ button.close {
   margin-right: 4px;
 }
 
-.features .row .col-md-4:first-child .card {
+.features .row .col-md-6:first-child .card {
   height: 100%;
 }
 
-.features .row .col-md-4:last-child .col-md-12:nth-child(2) .card {
+.features .row .col-md-6:last-child .col-md-12:nth-child(2) .card {
   background-color: transparent;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.features .row .col-md-4:last-child .col-md-12:nth-child(2) .card h2 {
+.features .row .col-md-6:last-child .col-md-12:nth-child(2) .card h2 {
   color: #0b00ff;
   font-weight: 700;
 }
 
-.features .row .col-md-4:last-child .col-md-12:nth-child(2) .card p {
+.features .row .col-md-6:last-child .col-md-12:nth-child(2) .card p {
   color: #0b00ff;
 }
 

@@ -33,14 +33,14 @@
   }
 
   .row {
-    .col-md-4 {
+    .col-md-6 {
       &:first-child {
         .card {
           height: 100%;
         }
       }
     }
-    .col-md-4 {
+    .col-md-6 {
       &:last-child {
         .col-md-12 {
           &:nth-child(2) {
