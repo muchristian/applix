@@ -7222,7 +7222,7 @@ button.close {
   display: inline-block;
   width: 20px;
   height: 20px;
-  padding: 1px 3px;
+  padding: 0px 3px;
   border-radius: 50%;
   position: relative;
   margin-right: 8px;
@@ -7343,15 +7343,37 @@ button.close {
   display: inline-block;
   width: 20px;
   height: 20px;
-  padding: 1px 3px;
+  padding: 0px 3px;
   border-radius: 50%;
   position: relative;
   margin-right: 8px;
   margin-top: 5px;
 }
 
+.health .ol-list, .government .ol-list, .sport .ol-list, .banking .ol-list, .filing .ol-list {
+  list-style: none;
+  counter-reset: item;
+}
+
 .health .ol-list li, .government .ol-list li, .sport .ol-list li, .banking .ol-list li, .filing .ol-list li {
+  counter-increment: item;
   line-height: 32px;
+}
+
+.health .ol-list li::before, .government .ol-list li::before, .sport .ol-list li::before, .banking .ol-list li::before, .filing .ol-list li::before {
+  content: counter(item);
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #fb7200;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 0px 3px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 8px;
+  margin-top: 5px;
 }
 
 .contact-us .container-fluid form {
