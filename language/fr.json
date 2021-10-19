@@ -36,7 +36,7 @@
   "services": {
     "serviceTitle": "Nos Solutions",
     "health": {
-      "title": "Santé Numérique (e-santé)",
+      "title": "Santé Numérique (E-santé)",
       "subTitle": "Dans les secteurs cliniques et médico-administratifs, nous offrons :",
       "description": ["un système de santé mobile", "un système d'information et de gestion hospitalière"],
       "more": {
@@ -61,10 +61,10 @@
         "benefits1": {
           "title": "Les Avantages de notre système",
           "description": [
-            "Une meilleure prise en charge du patient par un dossier unique partagé",
-"Une intégration des éléments cliniques, opérationnels et financiers",
-"Optimisation du flux de travail et la réduction des dépenses opérationnelles.",
-"Outil d’aide à la décision pour les administrateurs et aux professionnels de santé"
+            "une meilleure prise en charge du patient par un dossier unique partagé",
+"une intégration des éléments cliniques, opérationnels et financiers",
+"optimisation du flux de travail et la réduction des dépenses opérationnelles.",
+"outil d’aide à la décision pour les administrateurs et aux professionnels de santé"
           ]
         }
       }
@@ -77,10 +77,10 @@
         "subText": "Sonda Sports GPS Tracker est un outil professionnel pour le suivi des performances des athlètes. Lappareil est équipé un module GPS, un accéléromètre, un gyroscope et un magnétomètre. Il vous permet de suivre les mouvements de chaque joueur et de nombreuses mesures clés à chaque étape de lentraînement.",
         "performance": {
           "title": "Notre outil de gestion de la performance, est conçu pour :",
-          "description": ["L’analyse et la surveillance de la condition physique",
-            "Le suivi de la performance",
-            "La gestion de la fatigue aux entrainements et matches",
-            "La prévention des blessures par l’évaluation de la charge de travail"]
+          "description": ["l’analyse et la surveillance de la condition physique",
+            "le suivi de la performance",
+            "la gestion de la fatigue aux entrainements et matches",
+            "la prévention des blessures par l’évaluation de la charge de travail"]
         },
         "tools": {
           "title": "Avec nos outils, vous pouvez :",
@@ -95,10 +95,10 @@
       "title": "E-Gouvernement",
       "subTitle": "Cette plateforme permettra aux citoyens de faire une demande en ligne pour des services publics tels que :", 
       "description": [
-        "Système numérique pour l'enregistrement des sociétés et la promotion des investissements",
-        "Le système digital de passation des marchés publics",
-        "Système de gestion des licences pour les organismes de réglementation",
-        "E-Citoyens"
+        "le système numérique pour l'enregistrement des sociétés et la promotion des investissements",
+        "le système digital de passation des marchés publics",
+        "le système de gestion des licences pour les organismes de réglementation",
+        "e-citoyens"
       ],
       "more": {
         "title1H1": "Système numérique pour l'enregistrement des sociétés et la promotion des investissements",
@@ -118,19 +118,19 @@
         "procedures1": {
           "title": "Notre procédure simplifiée",
           "description": [
-            "Le gouvernement lance un appel d’offre via une plateforme",
-"Soumission en ligne des fournisseurs",
-"L’évaluation des offres par l’autorité compétente se fait en ligne",
-"Signature des contrats"
+            "le gouvernement lance un appel d’offre via une plateforme",
+"soumission en ligne des fournisseurs",
+"l’évaluation des offres par l’autorité compétente se fait en ligne",
+"signature des contrats"
           ]
         },
         "title3H1": "Système de gestion des licences pour les organismes de réglementation",
         "subText3": "Notre plateforme est conçue pour fournir des services en ligne visant à améliorer la prestation de services aux citoyens et aux entreprises de réglementation dans les secteurs clés, tels que :",
         "description3": [
-          "Le transport et la télécommunication", 
-"Les services de la postes, ICT, eau et assainissement",
-"Le nucléaire, l’électricité, le gaz et pétrole", 
-"La gestion des déchets électroniques, etc." 
+          "le transport et la télécommunication", 
+"les services de la postes, ICT, eau et assainissement",
+"le nucléaire, l’électricité, le gaz et pétrole", 
+"la gestion des déchets électroniques, etc." 
         ],
         "benefits": {
           "title": "Les avantages",
@@ -174,7 +174,7 @@
         "description": [
           {
             "title": "USSD Mobile Banking:",
-            "description": "Donne accès aux services bancaires sur téléphone mobile."
+            "description": "donne accès aux services bancaires sur téléphone mobile."
           },
           {
             "title": "Solution de compensation et de paiement: ",
@@ -238,7 +238,7 @@
       "more": {
         "subText1": "Logiciel de numérisation et de gestion de documents",
         "title1H6": "Notre offre :",
-        "description1": ["La numérisation", "Le stockage","La gestion", "Le suivi des documents & les images électroniques mais aussi les informations sur papier capturées à l’aide de nos scanners de documents."],
+        "description1": ["la numérisation", "le stockage","La gestion", "le suivi des documents & les images électroniques mais aussi les informations sur papier capturées à l’aide de nos scanners de documents."],
         "title2H6": "Vous pouvez :",
         "description2": ["Conserver vos documents de façon sécurisée et contrôlée", "Gagner du temps quand vous chercher un dossiers","Acceder aux dossiers à distance", "Protéger l’environnement", "Gagner de l’espace en libérant les salles d’archives"],
         "subText2": "« Profitez nos scanners professionnels d’une capacité de 100 copies par minute. »"
